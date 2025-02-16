@@ -1,0 +1,90 @@
+## Collection: tvSeries
+- _id: ObjectId
+- tconst: str
+- title: str
+- originalTitle: str
+- isAdult: int (0 - 1)
+- startYear: int
+- endYear: int 
+- runtimeMinutes: int 
+- genres: list of str
+- people: list of documents:
+  - name :str
+  - ordering : int
+  - bithyear : int
+  - deathYear : int
+  - primaryProfession : str
+  - category : str
+  - job : str
+  - characters : list of str
+- rating: document
+  - numVotes: int
+  - averageRating: float
+- episodes: list of documents
+  - Title : str 
+  - isAdult : int (0 - 1) 
+  - ordering : document:
+    - Episode : int
+    - Season : int
+  - rating: document
+    - numVotes: int
+    - averageRating: float
+  - runtimeMinutes: int
+  - year : int
+
+## Collection: movies
+- _id: ObjectId
+- tconst: str
+- title: str
+- originalTitle: str
+- isAdult: int (0 - 1)
+- year: int
+- runtimeMinutes: int 
+- genres: list of str
+- people: list of documents:
+  - name 
+  - ordering
+  - bithyear
+  - deathYear
+  - primaryProfession
+  - category
+  - job
+  - characters
+- rating: document
+  - numVotes: int
+  - averageRating: float
+
+
+## Collection: shorts
+- _id: ObjectId
+- tconst: str
+- title: str
+- originalTitle: str
+- isAdult: int (0 - 1)
+- year: int
+- runtimeMinutes: int 
+- genres: list of str
+- people: list of documents:
+  - name 
+  - ordering
+  - bithyear
+  - deathYear
+  - primaryProfession
+  - category
+  - job
+  - characters
+- rating: document
+  - numVotes: int
+  - averageRating: float
+
+## Collection: people
+- _id: ObjectId
+- nconst: str
+- primaryName: str
+- birthYear: int
+- deathYear: int
+- primaryProfession: (list) str
+- mainTitles: (list) document
+  - tconst: str
+  - title: str
+  - year: int

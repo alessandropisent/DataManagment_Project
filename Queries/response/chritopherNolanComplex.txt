@@ -1,0 +1,1725 @@
+Current Mongosh Log ID:	67b2700ec26e98447fe43268
+Connecting to:		mongodb://localhost:27017/imdb?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+2.3.9
+Using MongoDB:		8.0.4
+Using Mongosh:		2.3.9
+
+For mongosh info see: https://www.mongodb.com/docs/mongodb-shell/
+
+------
+   The server generated these startup warnings when booting
+   2025-02-16T19:13:31.814+01:00: Using the XFS filesystem is strongly recommended with the WiredTiger storage engine. See http://dochub.mongodb.org/core/prodnotes-filesystem
+   2025-02-16T19:13:32.225+01:00: Access control is not enabled for the database. Read and write access to data and configuration is unrestricted
+   2025-02-16T19:13:32.225+01:00: For customers running the current memory allocator, we suggest changing the contents of the following sysfsFile
+   2025-02-16T19:13:32.225+01:00: We suggest setting the contents of sysfsFile to 0.
+   2025-02-16T19:13:32.225+01:00: We suggest setting swappiness to 0 or 1, as swapping can cause performance problems.
+------
+
+imdb> already on db imdb
+imdb> ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... [
+  {
+    _id: ObjectId('67ab87d882fc8b274ab70507'),
+    title: 'The Dark Knight',
+    rating: { numVotes: 2981066, averageRating: 9 },
+    people: [
+      {
+        ordering: 1,
+        name: 'Christian Bale',
+        category: 'actor',
+        job: null,
+        characters: '["Bruce Wayne"]',
+        nconst: 'nm0000288',
+        birthYear: 1974,
+        deathYear: null,
+        primaryProfession: 'actor,producer,editorial_department'
+      },
+      {
+        ordering: 2,
+        name: 'Heath Ledger',
+        category: 'actor',
+        job: null,
+        characters: '["Joker"]',
+        nconst: 'nm0005132',
+        birthYear: 1979,
+        deathYear: 2008,
+        primaryProfession: 'actor,director,cinematographer'
+      },
+      {
+        ordering: 3,
+        name: 'Aaron Eckhart',
+        category: 'actor',
+        job: null,
+        characters: '["Harvey Dent"]',
+        nconst: 'nm0001173',
+        birthYear: 1968,
+        deathYear: null,
+        primaryProfession: 'actor,producer,soundtrack'
+      },
+      {
+        ordering: 4,
+        name: 'Michael Caine',
+        category: 'actor',
+        job: null,
+        characters: '["Alfred"]',
+        nconst: 'nm0000323',
+        birthYear: 1933,
+        deathYear: null,
+        primaryProfession: 'actor,producer,miscellaneous'
+      },
+      {
+        ordering: 5,
+        name: 'Maggie Gyllenhaal',
+        category: 'actress',
+        job: null,
+        characters: '["Rachel"]',
+        nconst: 'nm0350454',
+        birthYear: 1977,
+        deathYear: null,
+        primaryProfession: 'actress,producer,director'
+      },
+      {
+        ordering: 6,
+        name: 'Gary Oldman',
+        category: 'actor',
+        job: null,
+        characters: '["Gordon"]',
+        nconst: 'nm0000198',
+        birthYear: 1958,
+        deathYear: null,
+        primaryProfession: 'actor,producer,director'
+      },
+      {
+        ordering: 7,
+        name: 'Morgan Freeman',
+        category: 'actor',
+        job: null,
+        characters: '["Lucius Fox"]',
+        nconst: 'nm0000151',
+        birthYear: 1937,
+        deathYear: null,
+        primaryProfession: 'actor,producer,director'
+      },
+      {
+        ordering: 8,
+        name: 'Monique Gabriela Curnen',
+        category: 'actress',
+        job: null,
+        characters: '["Ramirez"]',
+        nconst: 'nm1010931',
+        birthYear: null,
+        deathYear: null,
+        primaryProfession: 'actress,producer,director'
+      },
+      {
+        ordering: 9,
+        name: 'Ron Dean',
+        category: 'actor',
+        job: null,
+        characters: '["Wuertz"]',
+        nconst: 'nm0212939',
+        birthYear: 1938,
+        deathYear: null,
+        primaryProfession: 'actor'
+      },
+      {
+        ordering: 10,
+        name: 'Cillian Murphy',
+        category: 'actor',
+        job: null,
+        characters: '["Scarecrow"]',
+        nconst: 'nm0614165',
+        birthYear: 1976,
+        deathYear: null,
+        primaryProfession: 'actor,producer,writer'
+      },
+      {
+        ordering: 11,
+        name: 'Christopher Nolan',
+        category: 'director',
+        job: null,
+        characters: null,
+        nconst: 'nm0634240',
+        birthYear: 1970,
+        deathYear: null,
+        primaryProfession: 'writer,producer,director'
+      }
+    ]
+  },
+  {
+    _id: ObjectId('67ab87d782fc8b274ab682b4'),
+    title: 'Inception',
+    rating: { numVotes: 2648705, averageRating: 8.8 },
+    people: [
+      {
+        ordering: 1,
+        name: 'Leonardo DiCaprio',
+        category: 'actor',
+        job: null,
+        characters: '["Cobb"]',
+        nconst: 'nm0000138',
+        birthYear: 1974,
+        deathYear: null,
+        primaryProfession: 'producer,actor,writer'
+      },
+      {
+        ordering: 2,
+        name: 'Joseph Gordon-Levitt',
+        category: 'actor',
+        job: null,
+        characters: '["Arthur"]',
+        nconst: 'nm0330687',
+        birthYear: 1981,
+        deathYear: null,
+        primaryProfession: 'actor,producer,writer'
+      },
+      {
+        ordering: 3,
+        name: 'Elliot Page',
+        category: 'actor',
+        job: null,
+        characters: '["Ariadne"]',
+        nconst: 'nm0680983',
+        birthYear: 1987,
+        deathYear: null,
+        primaryProfession: 'actor,producer,writer'
+      },
+      {
+        ordering: 4,
+        name: 'Ken Watanabe',
+        category: 'actor',
+        job: null,
+        characters: '["Saito"]',
+        nconst: 'nm0913822',
+        birthYear: 1959,
+        deathYear: null,
+        primaryProfession: 'actor,producer,miscellaneous'
+      },
+      {
+        ordering: 5,
+        name: 'Tom Hardy',
+        category: 'actor',
+        job: null,
+        characters: '["Eames"]',
+        nconst: 'nm0362766',
+        birthYear: 1977,
+        deathYear: null,
+        primaryProfession: 'actor,producer,writer'
+      },
+      {
+        ordering: 6,
+        name: 'Dileep Rao',
+        category: 'actor',
+        job: null,
+        characters: '["Yusuf"]',
+        nconst: 'nm2438307',
+        birthYear: 1973,
+        deathYear: null,
+        primaryProfession: 'actor,director,writer'
+      },
+      {
+        ordering: 7,
+        name: 'Cillian Murphy',
+        category: 'actor',
+        job: null,
+        characters: '["Robert Fischer"]',
+        nconst: 'nm0614165',
+        birthYear: 1976,
+        deathYear: null,
+        primaryProfession: 'actor,producer,writer'
+      },
+      {
+        ordering: 8,
+        name: 'Tom Berenger',
+        category: 'actor',
+        job: null,
+        characters: '["Browning"]',
+        nconst: 'nm0000297',
+        birthYear: 1949,
+        deathYear: null,
+        primaryProfession: 'actor,producer,writer'
+      },
+      {
+        ordering: 9,
+        name: 'Marion Cotillard',
+        category: 'actress',
+        job: null,
+        characters: '["Mal"]',
+        nconst: 'nm0182839',
+        birthYear: 1975,
+        deathYear: null,
+        primaryProfession: 'actress,producer,director'
+      },
+      {
+        ordering: 10,
+        name: 'Pete Postlethwaite',
+        category: 'actor',
+        job: null,
+        characters: '["Maurice Fischer"]',
+        nconst: 'nm0000592',
+        birthYear: 1946,
+        deathYear: 2011,
+        primaryProfession: 'actor,producer,archive_footage'
+      },
+      {
+        ordering: 11,
+        name: 'Christopher Nolan',
+        category: 'director',
+        job: null,
+        characters: null,
+        nconst: 'nm0634240',
+        birthYear: 1970,
+        deathYear: null,
+        primaryProfession: 'writer,producer,director'
+      }
+    ]
+  },
+  {
+    _id: ObjectId('67ab87d082fc8b274ab571e6'),
+    title: 'Interstellar',
+    rating: { numVotes: 2274841, averageRating: 8.7 },
+    people: [
+      {
+        ordering: 1,
+        name: 'Matthew McConaughey',
+        category: 'actor',
+        job: null,
+        characters: '["Cooper"]',
+        nconst: 'nm0000190',
+        birthYear: 1969,
+        deathYear: null,
+        primaryProfession: 'actor,producer,director'
+      },
+      {
+        ordering: 2,
+        name: 'Anne Hathaway',
+        category: 'actress',
+        job: null,
+        characters: '["Brand"]',
+        nconst: 'nm0004266',
+        birthYear: 1982,
+        deathYear: null,
+        primaryProfession: 'actress,producer,soundtrack'
+      },
+      {
+        ordering: 3,
+        name: 'Jessica Chastain',
+        category: 'actress',
+        job: null,
+        characters: '["Murph"]',
+        nconst: 'nm1567113',
+        birthYear: 1977,
+        deathYear: null,
+        primaryProfession: 'actress,producer,soundtrack'
+      },
+      {
+        ordering: 4,
+        name: 'Mackenzie Foy',
+        category: 'actress',
+        job: null,
+        characters: '["Murph"]',
+        nconst: 'nm3237775',
+        birthYear: 2000,
+        deathYear: null,
+        primaryProfession: 'actress,soundtrack,archive_footage'
+      },
+      {
+        ordering: 5,
+        name: 'Ellen Burstyn',
+        category: 'actress',
+        job: null,
+        characters: '["Murph"]',
+        nconst: 'nm0000995',
+        birthYear: 1932,
+        deathYear: null,
+        primaryProfession: 'actress,producer,director'
+      },
+      {
+        ordering: 6,
+        name: 'John Lithgow',
+        category: 'actor',
+        job: null,
+        characters: '["Donald"]',
+        nconst: 'nm0001475',
+        birthYear: 1945,
+        deathYear: null,
+        primaryProfession: 'actor,producer,writer'
+      },
+      {
+        ordering: 7,
+        name: 'Timothée Chalamet',
+        category: 'actor',
+        job: null,
+        characters: '["Tom"]',
+        nconst: 'nm3154303',
+        birthYear: 1995,
+        deathYear: null,
+        primaryProfession: 'actor,producer,soundtrack'
+      },
+      {
+        ordering: 8,
+        name: 'David Oyelowo',
+        category: 'actor',
+        job: null,
+        characters: '["School Principal"]',
+        nconst: 'nm0654648',
+        birthYear: 1976,
+        deathYear: null,
+        primaryProfession: 'actor,producer,director'
+      },
+      {
+        ordering: 9,
+        name: 'Collette Wolfe',
+        category: 'actress',
+        job: null,
+        characters: '["Ms. Hanley"]',
+        nconst: 'nm2180792',
+        birthYear: 1980,
+        deathYear: null,
+        primaryProfession: 'actress'
+      },
+      {
+        ordering: 10,
+        name: 'Francis X. McCarthy',
+        category: 'actor',
+        job: null,
+        characters: '["Boots"]',
+        nconst: 'nm0565133',
+        birthYear: 1942,
+        deathYear: null,
+        primaryProfession: 'actor,writer,archive_footage'
+      },
+      {
+        ordering: 11,
+        name: 'Christopher Nolan',
+        category: 'director',
+        job: null,
+        characters: null,
+        nconst: 'nm0634240',
+        birthYear: 1970,
+        deathYear: null,
+        primaryProfession: 'writer,producer,director'
+      }
+    ]
+  },
+  {
+    _id: ObjectId('67ab87d782fc8b274ab6e62f'),
+    title: 'The Prestige',
+    rating: { numVotes: 1495913, averageRating: 8.5 },
+    people: [
+      {
+        ordering: 1,
+        name: 'Christian Bale',
+        category: 'actor',
+        job: null,
+        characters: '["Alfred Borden"]',
+        nconst: 'nm0000288',
+        birthYear: 1974,
+        deathYear: null,
+        primaryProfession: 'actor,producer,editorial_department'
+      },
+      {
+        ordering: 2,
+        name: 'Hugh Jackman',
+        category: 'actor',
+        job: null,
+        characters: '["Robert Angier"]',
+        nconst: 'nm0413168',
+        birthYear: 1968,
+        deathYear: null,
+        primaryProfession: 'actor,producer,executive'
+      },
+      {
+        ordering: 3,
+        name: 'Scarlett Johansson',
+        category: 'actress',
+        job: null,
+        characters: '["Olivia Wenscombe"]',
+        nconst: 'nm0424060',
+        birthYear: 1984,
+        deathYear: null,
+        primaryProfession: 'actress,producer,director'
+      },
+      {
+        ordering: 4,
+        name: 'Michael Caine',
+        category: 'actor',
+        job: null,
+        characters: '["Cutter"]',
+        nconst: 'nm0000323',
+        birthYear: 1933,
+        deathYear: null,
+        primaryProfession: 'actor,producer,miscellaneous'
+      },
+      {
+        ordering: 5,
+        name: 'Piper Perabo',
+        category: 'actress',
+        job: null,
+        characters: '["Julia McCullough"]',
+        nconst: 'nm0005305',
+        birthYear: 1976,
+        deathYear: null,
+        primaryProfession: 'actress,producer,soundtrack'
+      },
+      {
+        ordering: 6,
+        name: 'Rebecca Hall',
+        category: 'actress',
+        job: null,
+        characters: '["Sarah"]',
+        nconst: 'nm0356017',
+        birthYear: 1982,
+        deathYear: null,
+        primaryProfession: 'actress,producer,director'
+      },
+      {
+        ordering: 7,
+        name: 'Samantha Mahurin',
+        category: 'actress',
+        job: null,
+        characters: '["Jess"]',
+        nconst: 'nm2195817',
+        birthYear: 1999,
+        deathYear: null,
+        primaryProfession: 'actress'
+      },
+      {
+        ordering: 8,
+        name: 'David Bowie',
+        category: 'actor',
+        job: null,
+        characters: '["Tesla"]',
+        nconst: 'nm0000309',
+        birthYear: 1947,
+        deathYear: 2016,
+        primaryProfession: 'music_artist,composer,actor'
+      },
+      {
+        ordering: 9,
+        name: 'Andy Serkis',
+        category: 'actor',
+        job: null,
+        characters: '["Alley"]',
+        nconst: 'nm0785227',
+        birthYear: 1964,
+        deathYear: null,
+        primaryProfession: 'actor,producer,director'
+      },
+      {
+        ordering: 10,
+        name: 'Daniel Davis',
+        category: 'actor',
+        job: null,
+        characters: '["Judge"]',
+        nconst: 'nm0204425',
+        birthYear: 1945,
+        deathYear: null,
+        primaryProfession: 'actor,soundtrack,archive_footage'
+      },
+      {
+        ordering: 11,
+        name: 'Christopher Nolan',
+        category: 'director',
+        job: null,
+        characters: null,
+        nconst: 'nm0634240',
+        birthYear: 1970,
+        deathYear: null,
+        primaryProfession: 'writer,producer,director'
+      }
+    ]
+  },
+  {
+    _id: ObjectId('67ab87d082fc8b274ab58e00'),
+    title: 'The Dark Knight Rises',
+    rating: { numVotes: 1891905, averageRating: 8.4 },
+    people: [
+      {
+        ordering: 1,
+        name: 'Christian Bale',
+        category: 'actor',
+        job: null,
+        characters: '["Bruce Wayne"]',
+        nconst: 'nm0000288',
+        birthYear: 1974,
+        deathYear: null,
+        primaryProfession: 'actor,producer,editorial_department'
+      },
+      {
+        ordering: 2,
+        name: 'Tom Hardy',
+        category: 'actor',
+        job: null,
+        characters: '["Bane"]',
+        nconst: 'nm0362766',
+        birthYear: 1977,
+        deathYear: null,
+        primaryProfession: 'actor,producer,writer'
+      },
+      {
+        ordering: 3,
+        name: 'Anne Hathaway',
+        category: 'actress',
+        job: null,
+        characters: '["Selina"]',
+        nconst: 'nm0004266',
+        birthYear: 1982,
+        deathYear: null,
+        primaryProfession: 'actress,producer,soundtrack'
+      },
+      {
+        ordering: 4,
+        name: 'Gary Oldman',
+        category: 'actor',
+        job: null,
+        characters: '["Commissioner Gordon"]',
+        nconst: 'nm0000198',
+        birthYear: 1958,
+        deathYear: null,
+        primaryProfession: 'actor,producer,director'
+      },
+      {
+        ordering: 5,
+        name: 'Joseph Gordon-Levitt',
+        category: 'actor',
+        job: null,
+        characters: '["Blake"]',
+        nconst: 'nm0330687',
+        birthYear: 1981,
+        deathYear: null,
+        primaryProfession: 'actor,producer,writer'
+      },
+      {
+        ordering: 6,
+        name: 'Marion Cotillard',
+        category: 'actress',
+        job: null,
+        characters: '["Miranda"]',
+        nconst: 'nm0182839',
+        birthYear: 1975,
+        deathYear: null,
+        primaryProfession: 'actress,producer,director'
+      },
+      {
+        ordering: 7,
+        name: 'Morgan Freeman',
+        category: 'actor',
+        job: null,
+        characters: '["Fox"]',
+        nconst: 'nm0000151',
+        birthYear: 1937,
+        deathYear: null,
+        primaryProfession: 'actor,producer,director'
+      },
+      {
+        ordering: 8,
+        name: 'Michael Caine',
+        category: 'actor',
+        job: null,
+        characters: '["Alfred"]',
+        nconst: 'nm0000323',
+        birthYear: 1933,
+        deathYear: null,
+        primaryProfession: 'actor,producer,miscellaneous'
+      },
+      {
+        ordering: 9,
+        name: 'Matthew Modine',
+        category: 'actor',
+        job: null,
+        characters: '["Foley"]',
+        nconst: 'nm0000546',
+        birthYear: 1959,
+        deathYear: null,
+        primaryProfession: 'actor,producer,director'
+      },
+      {
+        ordering: 10,
+        name: 'Alon Aboutboul',
+        category: 'actor',
+        job: null,
+        characters: '["Dr. Pavel"]',
+        nconst: 'nm0009530',
+        birthYear: 1965,
+        deathYear: null,
+        primaryProfession: 'actor,director,writer'
+      },
+      {
+        ordering: 11,
+        name: 'Christopher Nolan',
+        category: 'director',
+        job: null,
+        characters: null,
+        nconst: 'nm0634240',
+        birthYear: 1970,
+        deathYear: null,
+        primaryProfession: 'writer,producer,director'
+      }
+    ]
+  },
+  {
+    _id: ObjectId('67ab87fa82fc8b274abcb722'),
+    title: 'Memento',
+    rating: { numVotes: 1364144, averageRating: 8.4 },
+    people: [
+      {
+        ordering: 1,
+        name: 'Guy Pearce',
+        category: 'actor',
+        job: null,
+        characters: '["Leonard"]',
+        nconst: 'nm0001602',
+        birthYear: 1967,
+        deathYear: null,
+        primaryProfession: 'actor,producer,soundtrack'
+      },
+      {
+        ordering: 2,
+        name: 'Carrie-Anne Moss',
+        category: 'actress',
+        job: null,
+        characters: '["Natalie"]',
+        nconst: 'nm0005251',
+        birthYear: 1967,
+        deathYear: null,
+        primaryProfession: 'actress,producer,archive_footage'
+      },
+      {
+        ordering: 3,
+        name: 'Joe Pantoliano',
+        category: 'actor',
+        job: null,
+        characters: '["Teddy"]',
+        nconst: 'nm0001592',
+        birthYear: 1951,
+        deathYear: null,
+        primaryProfession: 'actor,producer,writer'
+      },
+      {
+        ordering: 4,
+        name: 'Mark Boone Junior',
+        category: 'actor',
+        job: null,
+        characters: '["Burt"]',
+        nconst: 'nm0095478',
+        birthYear: 1955,
+        deathYear: null,
+        primaryProfession: 'actor,producer,writer'
+      },
+      {
+        ordering: 5,
+        name: 'Russ Fega',
+        category: 'actor',
+        job: null,
+        characters: '["Waiter"]',
+        nconst: 'nm0270383',
+        birthYear: null,
+        deathYear: null,
+        primaryProfession: 'location_management,actor,miscellaneous'
+      },
+      {
+        ordering: 6,
+        name: 'Jorja Fox',
+        category: 'actress',
+        job: null,
+        characters: `["Leonard's Wife"]`,
+        nconst: 'nm0289080',
+        birthYear: null,
+        deathYear: null,
+        primaryProfession: 'actress,producer,soundtrack'
+      },
+      {
+        ordering: 7,
+        name: 'Stephen Tobolowsky',
+        category: 'actor',
+        job: null,
+        characters: '["Sammy Jankis"]',
+        nconst: 'nm0864997',
+        birthYear: 1951,
+        deathYear: null,
+        primaryProfession: 'actor,writer,director'
+      },
+      {
+        ordering: 8,
+        name: 'Harriet Sansom Harris',
+        category: 'actress',
+        job: null,
+        characters: '["Mrs. Jankis"]',
+        nconst: 'nm0364748',
+        birthYear: 1955,
+        deathYear: null,
+        primaryProfession: 'actress,soundtrack,archive_footage'
+      },
+      {
+        ordering: 9,
+        name: 'Thomas Lennon',
+        category: 'actor',
+        job: null,
+        characters: '["Doctor"]',
+        nconst: 'nm0502073',
+        birthYear: 1970,
+        deathYear: null,
+        primaryProfession: 'actor,producer,writer'
+      },
+      {
+        ordering: 10,
+        name: 'Callum Keith Rennie',
+        category: 'actor',
+        job: null,
+        characters: '["Dodd"]',
+        nconst: 'nm0719678',
+        birthYear: null,
+        deathYear: null,
+        primaryProfession: 'actor,producer,miscellaneous'
+      },
+      {
+        ordering: 11,
+        name: 'Christopher Nolan',
+        category: 'director',
+        job: null,
+        characters: null,
+        nconst: 'nm0634240',
+        birthYear: 1970,
+        deathYear: null,
+        primaryProfession: 'writer,producer,director'
+      }
+    ]
+  },
+  {
+    _id: ObjectId('67ab880682fc8b274abf2fe4'),
+    title: 'Oppenheimer',
+    rating: { numVotes: 850514, averageRating: 8.3 },
+    people: [
+      {
+        ordering: 1,
+        name: 'Cillian Murphy',
+        category: 'actor',
+        job: null,
+        characters: '["J. Robert Oppenheimer"]',
+        nconst: 'nm0614165',
+        birthYear: 1976,
+        deathYear: null,
+        primaryProfession: 'actor,producer,writer'
+      },
+      {
+        ordering: 2,
+        name: 'Emily Blunt',
+        category: 'actress',
+        job: null,
+        characters: '["Kitty Oppenheimer"]',
+        nconst: 'nm1289434',
+        birthYear: 1983,
+        deathYear: null,
+        primaryProfession: 'actress,producer,miscellaneous'
+      },
+      {
+        ordering: 3,
+        name: 'Matt Damon',
+        category: 'actor',
+        job: null,
+        characters: '["Leslie Groves"]',
+        nconst: 'nm0000354',
+        birthYear: 1970,
+        deathYear: null,
+        primaryProfession: 'producer,actor,writer'
+      },
+      {
+        ordering: 4,
+        name: 'Robert Downey Jr.',
+        category: 'actor',
+        job: null,
+        characters: '["Lewis Strauss"]',
+        nconst: 'nm0000375',
+        birthYear: 1965,
+        deathYear: null,
+        primaryProfession: 'actor,producer,writer'
+      },
+      {
+        ordering: 5,
+        name: 'Alden Ehrenreich',
+        category: 'actor',
+        job: null,
+        characters: '["Senate Aide"]',
+        nconst: 'nm2403277',
+        birthYear: 1989,
+        deathYear: null,
+        primaryProfession: 'actor,director,writer'
+      },
+      {
+        ordering: 6,
+        name: 'Scott Grimes',
+        category: 'actor',
+        job: null,
+        characters: '["Counsel"]',
+        nconst: 'nm0342241',
+        birthYear: 1971,
+        deathYear: null,
+        primaryProfession: 'actor,composer,music_department'
+      },
+      {
+        ordering: 7,
+        name: 'Jason Clarke',
+        category: 'actor',
+        job: null,
+        characters: '["Roger Robb"]',
+        nconst: 'nm0164809',
+        birthYear: 1969,
+        deathYear: null,
+        primaryProfession: 'actor,producer,archive_footage'
+      },
+      {
+        ordering: 8,
+        name: 'Kurt Koehler',
+        category: 'actor',
+        job: null,
+        characters: '["Thomas Morgan"]',
+        nconst: 'nm0463282',
+        birthYear: null,
+        deathYear: null,
+        primaryProfession: 'actor,casting_department,director'
+      },
+      {
+        ordering: 9,
+        name: 'Tony Goldwyn',
+        category: 'actor',
+        job: null,
+        characters: '["Gordon Gray"]',
+        nconst: 'nm0001282',
+        birthYear: 1960,
+        deathYear: null,
+        primaryProfession: 'actor,director,writer'
+      },
+      {
+        ordering: 10,
+        name: 'John Gowans',
+        category: 'actor',
+        job: null,
+        characters: '["Ward Evans"]',
+        nconst: 'nm0332944',
+        birthYear: null,
+        deathYear: null,
+        primaryProfession: 'actor'
+      },
+      {
+        ordering: 11,
+        name: 'Christopher Nolan',
+        category: 'director',
+        job: null,
+        characters: null,
+        nconst: 'nm0634240',
+        birthYear: 1970,
+        deathYear: null,
+        primaryProfession: 'writer,producer,director'
+      }
+    ]
+  },
+  {
+    _id: ObjectId('67ab87f582fc8b274abb932f'),
+    title: 'Batman Begins',
+    rating: { numVotes: 1629230, averageRating: 8.2 },
+    people: [
+      {
+        ordering: 1,
+        name: 'Christian Bale',
+        category: 'actor',
+        job: null,
+        characters: '["Bruce Wayne"]',
+        nconst: 'nm0000288',
+        birthYear: 1974,
+        deathYear: null,
+        primaryProfession: 'actor,producer,editorial_department'
+      },
+      {
+        ordering: 2,
+        name: 'Christian Bale',
+        category: 'actor',
+        job: null,
+        characters: '["Batman"]',
+        nconst: 'nm0000288',
+        birthYear: 1974,
+        deathYear: null,
+        primaryProfession: 'actor,producer,editorial_department'
+      },
+      {
+        ordering: 3,
+        name: 'Michael Caine',
+        category: 'actor',
+        job: null,
+        characters: '["Alfred"]',
+        nconst: 'nm0000323',
+        birthYear: 1933,
+        deathYear: null,
+        primaryProfession: 'actor,producer,miscellaneous'
+      },
+      {
+        ordering: 4,
+        name: 'Ken Watanabe',
+        category: 'actor',
+        job: null,
+        characters: `["Ra's Al Ghul"]`,
+        nconst: 'nm0913822',
+        birthYear: 1959,
+        deathYear: null,
+        primaryProfession: 'actor,producer,miscellaneous'
+      },
+      {
+        ordering: 5,
+        name: 'Liam Neeson',
+        category: 'actor',
+        job: null,
+        characters: '["Ducard"]',
+        nconst: 'nm0000553',
+        birthYear: 1952,
+        deathYear: null,
+        primaryProfession: 'actor,producer,soundtrack'
+      },
+      {
+        ordering: 6,
+        name: 'Katie Holmes',
+        category: 'actress',
+        job: null,
+        characters: '["Rachel Dawes"]',
+        nconst: 'nm0005017',
+        birthYear: 1978,
+        deathYear: null,
+        primaryProfession: 'actress,producer,director'
+      },
+      {
+        ordering: 7,
+        name: 'Gary Oldman',
+        category: 'actor',
+        job: null,
+        characters: '["Jim Gordon"]',
+        nconst: 'nm0000198',
+        birthYear: 1958,
+        deathYear: null,
+        primaryProfession: 'actor,producer,director'
+      },
+      {
+        ordering: 8,
+        name: 'Cillian Murphy',
+        category: 'actor',
+        job: null,
+        characters: '["Dr. Jonathan Crane"]',
+        nconst: 'nm0614165',
+        birthYear: 1976,
+        deathYear: null,
+        primaryProfession: 'actor,producer,writer'
+      },
+      {
+        ordering: 9,
+        name: 'Tom Wilkinson',
+        category: 'actor',
+        job: null,
+        characters: '["Carmine Falcone"]',
+        nconst: 'nm0929489',
+        birthYear: 1948,
+        deathYear: 2023,
+        primaryProfession: 'actor,soundtrack,archive_footage'
+      },
+      {
+        ordering: 10,
+        name: 'Rutger Hauer',
+        category: 'actor',
+        job: null,
+        characters: '["Earle"]',
+        nconst: 'nm0000442',
+        birthYear: 1944,
+        deathYear: 2019,
+        primaryProfession: 'actor,producer,director'
+      },
+      {
+        ordering: 11,
+        name: 'Linus Roache',
+        category: 'actor',
+        job: null,
+        characters: '["Thomas Wayne"]',
+        nconst: 'nm0730070',
+        birthYear: 1964,
+        deathYear: null,
+        primaryProfession: 'actor,composer,soundtrack'
+      },
+      {
+        ordering: 12,
+        name: 'Christopher Nolan',
+        category: 'director',
+        job: null,
+        characters: null,
+        nconst: 'nm0634240',
+        birthYear: 1970,
+        deathYear: null,
+        primaryProfession: 'writer,producer,director'
+      }
+    ]
+  },
+  {
+    _id: ObjectId('67ab87d882fc8b274ab77b06'),
+    title: 'Dunkirk',
+    rating: { numVotes: 764895, averageRating: 7.8 },
+    people: [
+      {
+        ordering: 1,
+        name: 'Fionn Whitehead',
+        category: 'actor',
+        job: null,
+        characters: '["Tommy"]',
+        nconst: 'nm7887725',
+        birthYear: 1997,
+        deathYear: null,
+        primaryProfession: 'actor,soundtrack,archive_footage'
+      },
+      {
+        ordering: 2,
+        name: 'Barry Keoghan',
+        category: 'actor',
+        job: null,
+        characters: '["George"]',
+        nconst: 'nm4422686',
+        birthYear: 1992,
+        deathYear: null,
+        primaryProfession: 'actor,producer,soundtrack'
+      },
+      {
+        ordering: 3,
+        name: 'Mark Rylance',
+        category: 'actor',
+        job: null,
+        characters: '["Mr. Dawson"]',
+        nconst: 'nm0753314',
+        birthYear: 1960,
+        deathYear: null,
+        primaryProfession: 'actor,producer,miscellaneous'
+      },
+      {
+        ordering: 4,
+        name: 'Tom Hardy',
+        category: 'actor',
+        job: null,
+        characters: '["Farrier"]',
+        nconst: 'nm0362766',
+        birthYear: 1977,
+        deathYear: null,
+        primaryProfession: 'actor,producer,writer'
+      },
+      {
+        ordering: 5,
+        name: 'Damien Bonnard',
+        category: 'actor',
+        job: null,
+        characters: '["French Soldier"]',
+        nconst: 'nm4044784',
+        birthYear: 1978,
+        deathYear: null,
+        primaryProfession: 'actor,director,writer'
+      },
+      {
+        ordering: 6,
+        name: 'Aneurin Barnard',
+        category: 'actor',
+        job: null,
+        characters: '["Gibson"]',
+        nconst: 'nm2902567',
+        birthYear: 1987,
+        deathYear: null,
+        primaryProfession: 'actor,miscellaneous,music_department'
+      },
+      {
+        ordering: 7,
+        name: 'Lee Armstrong',
+        category: 'actor',
+        job: null,
+        characters: '["Grenadier"]',
+        nconst: 'nm5218471',
+        birthYear: null,
+        deathYear: null,
+        primaryProfession: 'actor,director,writer'
+      },
+      {
+        ordering: 8,
+        name: 'James Bloor',
+        category: 'actor',
+        job: null,
+        characters: '["Irate Soldier"]',
+        nconst: 'nm5914751',
+        birthYear: null,
+        deathYear: null,
+        primaryProfession: 'actor,director,writer'
+      },
+      {
+        ordering: 9,
+        name: 'Tom Glynn-Carney',
+        category: 'actor',
+        job: null,
+        characters: '["Peter"]',
+        nconst: 'nm6077951',
+        birthYear: 1995,
+        deathYear: null,
+        primaryProfession: 'actor'
+      },
+      {
+        ordering: 10,
+        name: 'Jack Lowden',
+        category: 'actor',
+        job: null,
+        characters: '["Collins"]',
+        nconst: 'nm4110963',
+        birthYear: 1990,
+        deathYear: null,
+        primaryProfession: 'actor,producer,archive_footage'
+      },
+      {
+        ordering: 11,
+        name: 'Christopher Nolan',
+        category: 'director',
+        job: null,
+        characters: null,
+        nconst: 'nm0634240',
+        birthYear: 1970,
+        deathYear: null,
+        primaryProfession: 'writer,producer,director'
+      }
+    ]
+  },
+  {
+    _id: ObjectId('67ab87f182fc8b274abae374'),
+    title: 'Following',
+    rating: { numVotes: 104809, averageRating: 7.4 },
+    people: [
+      {
+        ordering: 1,
+        name: 'Jeremy Theobald',
+        category: 'actor',
+        job: null,
+        characters: '["The Young Man"]',
+        nconst: 'nm0857458',
+        birthYear: null,
+        deathYear: null,
+        primaryProfession: 'actor,producer'
+      },
+      {
+        ordering: 2,
+        name: 'Alex Haw',
+        category: 'actor',
+        job: null,
+        characters: '["Cobb"]',
+        nconst: 'nm0369918',
+        birthYear: null,
+        deathYear: null,
+        primaryProfession: 'actor,archive_footage'
+      },
+      {
+        ordering: 3,
+        name: 'Lucy Russell',
+        category: 'actress',
+        job: null,
+        characters: '["The Blonde"]',
+        nconst: 'nm0751301',
+        birthYear: 1972,
+        deathYear: null,
+        primaryProfession: 'actress,producer'
+      },
+      {
+        ordering: 4,
+        name: 'John Nolan',
+        category: 'actor',
+        job: null,
+        characters: '["The Policeman"]',
+        nconst: 'nm0634297',
+        birthYear: 1938,
+        deathYear: null,
+        primaryProfession: 'actor,archive_footage'
+      },
+      {
+        ordering: 5,
+        name: 'Dick Bradsell',
+        category: 'actor',
+        job: null,
+        characters: '["The Bald Guy"]',
+        nconst: 'nm0103456',
+        birthYear: 1959,
+        deathYear: 2016,
+        primaryProfession: 'actor'
+      },
+      {
+        ordering: 6,
+        name: 'Gillian El-Kadi',
+        category: 'actress',
+        job: null,
+        characters: '["Home Owner"]',
+        nconst: 'nm0252831',
+        birthYear: null,
+        deathYear: null,
+        primaryProfession: 'actress'
+      },
+      {
+        ordering: 7,
+        name: 'Jennifer Angel',
+        category: 'actress',
+        job: null,
+        characters: '["Waitress"]',
+        nconst: 'nm0029464',
+        birthYear: null,
+        deathYear: null,
+        primaryProfession: 'actress'
+      },
+      {
+        ordering: 8,
+        name: 'Nicolas Carlotti',
+        category: 'actor',
+        job: null,
+        characters: '["Barman"]',
+        nconst: 'nm0137798',
+        birthYear: null,
+        deathYear: null,
+        primaryProfession: 'actor'
+      },
+      {
+        ordering: 9,
+        name: 'Darren Ormandy',
+        category: 'actor',
+        job: null,
+        characters: '["Accountant"]',
+        nconst: 'nm0650212',
+        birthYear: null,
+        deathYear: null,
+        primaryProfession: 'actor,writer,editor'
+      },
+      {
+        ordering: 10,
+        name: 'Guy Greenway',
+        category: 'actor',
+        job: null,
+        characters: '["Heavy #1"]',
+        nconst: 'nm0339275',
+        birthYear: null,
+        deathYear: null,
+        primaryProfession: 'actor'
+      },
+      {
+        ordering: 11,
+        name: 'Christopher Nolan',
+        category: 'director',
+        job: null,
+        characters: null,
+        nconst: 'nm0634240',
+        birthYear: 1970,
+        deathYear: null,
+        primaryProfession: 'writer,producer,director'
+      }
+    ]
+  },
+  {
+    _id: ObjectId('67ab87dd82fc8b274ab83b05'),
+    title: 'Tenet',
+    rating: { numVotes: 621374, averageRating: 7.3 },
+    people: [
+      {
+        ordering: 1,
+        name: 'John David Washington',
+        category: 'actor',
+        job: null,
+        characters: '["Protagonist"]',
+        nconst: 'nm0913475',
+        birthYear: 1984,
+        deathYear: null,
+        primaryProfession: 'actor,producer,soundtrack'
+      },
+      {
+        ordering: 2,
+        name: 'Robert Pattinson',
+        category: 'actor',
+        job: null,
+        characters: '["Neil"]',
+        nconst: 'nm1500155',
+        birthYear: 1986,
+        deathYear: null,
+        primaryProfession: 'actor,producer,writer'
+      },
+      {
+        ordering: 3,
+        name: 'Elizabeth Debicki',
+        category: 'actress',
+        job: null,
+        characters: '["Kat"]',
+        nconst: 'nm4456120',
+        birthYear: 1990,
+        deathYear: null,
+        primaryProfession: 'actress,producer,archive_footage'
+      },
+      {
+        ordering: 4,
+        name: 'Juhan Ulfsak',
+        category: 'actor',
+        job: null,
+        characters: '["Passenger"]',
+        nconst: 'nm1798449',
+        birthYear: 1973,
+        deathYear: null,
+        primaryProfession: 'actor,writer,editorial_department'
+      },
+      {
+        ordering: 5,
+        name: 'Jefferson Hall',
+        category: 'actor',
+        job: null,
+        characters: '["Well-Dressed Man"]',
+        nconst: 'nm2131630',
+        birthYear: 1977,
+        deathYear: null,
+        primaryProfession: 'actor,producer,archive_footage'
+      },
+      {
+        ordering: 6,
+        name: 'Ivo Uukkivi',
+        category: 'actor',
+        job: null,
+        characters: '["Uniformed Official"]',
+        nconst: 'nm0882616',
+        birthYear: 1965,
+        deathYear: null,
+        primaryProfession: 'actor,producer'
+      },
+      {
+        ordering: 7,
+        name: 'Andrew Howard',
+        category: 'actor',
+        job: null,
+        characters: '["Driver"]',
+        nconst: 'nm0397110',
+        birthYear: 1969,
+        deathYear: null,
+        primaryProfession: 'actor,producer,writer'
+      },
+      {
+        ordering: 8,
+        name: 'Rich Ceraulo Ko',
+        category: 'actor',
+        job: null,
+        characters: '["SWAT"]',
+        nconst: 'nm0991553',
+        birthYear: null,
+        deathYear: null,
+        primaryProfession: 'actor,producer,director'
+      },
+      {
+        ordering: 9,
+        name: 'Rich Ceraulo Ko',
+        category: 'actor',
+        job: null,
+        characters: '["Target"]',
+        nconst: 'nm0991553',
+        birthYear: null,
+        deathYear: null,
+        primaryProfession: 'actor,producer,director'
+      },
+      {
+        ordering: 10,
+        name: 'Jonathan Camp',
+        category: 'actor',
+        job: null,
+        characters: '["SWAT 2"]',
+        nconst: 'nm1942304',
+        birthYear: null,
+        deathYear: null,
+        primaryProfession: 'actor'
+      },
+      {
+        ordering: 11,
+        name: 'Wes Chatham',
+        category: 'actor',
+        job: null,
+        characters: '["SWAT 3"]',
+        nconst: 'nm1434871',
+        birthYear: 1978,
+        deathYear: null,
+        primaryProfession: 'actor,producer,writer'
+      },
+      {
+        ordering: 12,
+        name: 'Christopher Nolan',
+        category: 'director',
+        job: null,
+        characters: null,
+        nconst: 'nm0634240',
+        birthYear: 1970,
+        deathYear: null,
+        primaryProfession: 'writer,producer,director'
+      }
+    ]
+  },
+  {
+    _id: ObjectId('67ab87d082fc8b274ab567ae'),
+    title: 'Insomnia',
+    rating: { numVotes: 327137, averageRating: 7.2 },
+    people: [
+      {
+        ordering: 1,
+        name: 'Al Pacino',
+        category: 'actor',
+        job: null,
+        characters: '["Will Dormer"]',
+        nconst: 'nm0000199',
+        birthYear: 1940,
+        deathYear: null,
+        primaryProfession: 'actor,director,producer'
+      },
+      {
+        ordering: 2,
+        name: 'Robin Williams',
+        category: 'actor',
+        job: null,
+        characters: '["Walter Finch"]',
+        nconst: 'nm0000245',
+        birthYear: 1951,
+        deathYear: 2014,
+        primaryProfession: 'actor,writer,producer'
+      },
+      {
+        ordering: 3,
+        name: 'Hilary Swank',
+        category: 'actress',
+        job: null,
+        characters: '["Ellie Burr"]',
+        nconst: 'nm0005476',
+        birthYear: 1974,
+        deathYear: null,
+        primaryProfession: 'actress,producer,soundtrack'
+      },
+      {
+        ordering: 4,
+        name: 'Martin Donovan',
+        category: 'actor',
+        job: null,
+        characters: '["Hap Eckhart"]',
+        nconst: 'nm0233027',
+        birthYear: null,
+        deathYear: null,
+        primaryProfession: 'actor,director,writer'
+      },
+      {
+        ordering: 5,
+        name: "Oliver 'Ole' Zemen",
+        category: 'actor',
+        job: null,
+        characters: '["Pilot"]',
+        nconst: 'nm1182861',
+        birthYear: null,
+        deathYear: null,
+        primaryProfession: 'actor'
+      },
+      {
+        ordering: 6,
+        name: 'Paul Dooley',
+        category: 'actor',
+        job: null,
+        characters: '["Chief Nyback"]',
+        nconst: 'nm0233209',
+        birthYear: 1928,
+        deathYear: null,
+        primaryProfession: 'actor,writer,producer'
+      },
+      {
+        ordering: 7,
+        name: 'Nicky Katt',
+        category: 'actor',
+        job: null,
+        characters: '["Fred Duggar"]',
+        nconst: 'nm0441588',
+        birthYear: 1970,
+        deathYear: null,
+        primaryProfession: 'actor,producer,talent_agent'
+      },
+      {
+        ordering: 8,
+        name: 'Larry Holden',
+        category: 'actor',
+        job: null,
+        characters: '["Farrell"]',
+        nconst: 'nm0390227',
+        birthYear: 1961,
+        deathYear: 2011,
+        primaryProfession: 'actor,director,producer'
+      },
+      {
+        ordering: 9,
+        name: 'Jay Brazeau',
+        category: 'actor',
+        job: null,
+        characters: '["Francis"]',
+        nconst: 'nm0106319',
+        birthYear: 1953,
+        deathYear: null,
+        primaryProfession: 'actor,writer,composer'
+      },
+      {
+        ordering: 10,
+        name: 'Lorne Cardinal',
+        category: 'actor',
+        job: null,
+        characters: '["Rich"]',
+        nconst: 'nm0136482',
+        birthYear: 1964,
+        deathYear: null,
+        primaryProfession: 'actor,director,producer'
+      },
+      {
+        ordering: 11,
+        name: 'Christopher Nolan',
+        category: 'director',
+        job: null,
+        characters: null,
+        nconst: 'nm0634240',
+        birthYear: 1970,
+        deathYear: null,
+        primaryProfession: 'writer,producer,director'
+      }
+    ]
+  },
+  {
+    _id: ObjectId('67ab87d282fc8b274ab62b48'),
+    title: 'The Odyssey',
+    rating: { numVotes: null, averageRating: null },
+    people: [
+      {
+        ordering: 1,
+        name: 'Tom Holland',
+        category: 'actor',
+        job: null,
+        characters: null,
+        nconst: 'nm4043618',
+        birthYear: 1996,
+        deathYear: null,
+        primaryProfession: 'actor,producer,director'
+      },
+      {
+        ordering: 2,
+        name: 'Zendaya',
+        category: 'actress',
+        job: null,
+        characters: null,
+        nconst: 'nm3918035',
+        birthYear: 1996,
+        deathYear: null,
+        primaryProfession: 'actress,producer,sound_department'
+      },
+      {
+        ordering: 3,
+        name: 'Anne Hathaway',
+        category: 'actress',
+        job: null,
+        characters: null,
+        nconst: 'nm0004266',
+        birthYear: 1982,
+        deathYear: null,
+        primaryProfession: 'actress,producer,soundtrack'
+      },
+      {
+        ordering: 4,
+        name: 'Robert Pattinson',
+        category: 'actor',
+        job: null,
+        characters: null,
+        nconst: 'nm1500155',
+        birthYear: 1986,
+        deathYear: null,
+        primaryProfession: 'actor,producer,writer'
+      },
+      {
+        ordering: 5,
+        name: 'Matt Damon',
+        category: 'actor',
+        job: null,
+        characters: null,
+        nconst: 'nm0000354',
+        birthYear: 1970,
+        deathYear: null,
+        primaryProfession: 'producer,actor,writer'
+      },
+      {
+        ordering: 6,
+        name: 'Charlize Theron',
+        category: 'actress',
+        job: null,
+        characters: null,
+        nconst: 'nm0000234',
+        birthYear: 1975,
+        deathYear: null,
+        primaryProfession: 'producer,actress,costume_designer'
+      },
+      {
+        ordering: 7,
+        name: 'Elliot Page',
+        category: 'actor',
+        job: null,
+        characters: null,
+        nconst: 'nm0680983',
+        birthYear: 1987,
+        deathYear: null,
+        primaryProfession: 'actor,producer,writer'
+      },
+      {
+        ordering: 8,
+        name: 'Jon Bernthal',
+        category: 'actor',
+        job: null,
+        characters: null,
+        nconst: 'nm1256532',
+        birthYear: 1976,
+        deathYear: null,
+        primaryProfession: 'actor,producer,miscellaneous'
+      },
+      {
+        ordering: 9,
+        name: "Lupita Nyong'o",
+        category: 'actress',
+        job: null,
+        characters: null,
+        nconst: 'nm2143282',
+        birthYear: 1983,
+        deathYear: null,
+        primaryProfession: 'actress,producer,miscellaneous'
+      },
+      {
+        ordering: 10,
+        name: 'Samantha Morton',
+        category: 'actress',
+        job: null,
+        characters: null,
+        nconst: 'nm0608090',
+        birthYear: 1977,
+        deathYear: null,
+        primaryProfession: 'actress,writer,director'
+      },
+      {
+        ordering: 11,
+        name: 'Christopher Nolan',
+        category: 'director',
+        job: null,
+        characters: null,
+        nconst: 'nm0634240',
+        birthYear: 1970,
+        deathYear: null,
+        primaryProfession: 'writer,producer,director'
+      }
+    ]
+  },
+  {
+    _id: ObjectId('67ab87ec82fc8b274aba9960'),
+    title: 'Larry Mahoney',
+    rating: { numVotes: null, averageRating: null },
+    people: [
+      {
+        ordering: 1,
+        name: 'Christopher Nolan',
+        category: 'director',
+        job: 'director',
+        characters: null,
+        nconst: 'nm0634240',
+        birthYear: 1970,
+        deathYear: null,
+        primaryProfession: 'writer,producer,director'
+      }
+    ]
+  }
+]
+imdb> 
+imdb> 

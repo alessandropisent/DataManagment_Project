@@ -1,0 +1,128 @@
+Current Mongosh Log ID:	67b26fb0f099afa2dae43268
+Connecting to:		mongodb://localhost:27017/imdb?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+2.3.9
+Using MongoDB:		8.0.4
+Using Mongosh:		2.3.9
+
+For mongosh info see: https://www.mongodb.com/docs/mongodb-shell/
+
+------
+   The server generated these startup warnings when booting
+   2025-02-16T19:13:31.814+01:00: Using the XFS filesystem is strongly recommended with the WiredTiger storage engine. See http://dochub.mongodb.org/core/prodnotes-filesystem
+   2025-02-16T19:13:32.225+01:00: Access control is not enabled for the database. Read and write access to data and configuration is unrestricted
+   2025-02-16T19:13:32.225+01:00: For customers running the current memory allocator, we suggest changing the contents of the following sysfsFile
+   2025-02-16T19:13:32.225+01:00: We suggest setting the contents of sysfsFile to 0.
+   2025-02-16T19:13:32.225+01:00: We suggest setting swappiness to 0 or 1, as swapping can cause performance problems.
+------
+
+imdb> 
+imdb> 
+imdb> already on db imdb
+imdb> ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... [
+  {
+    totalTitles: 3400,
+    perTitleType: [
+      { titleType: 'movies', avgRating: 6.95, numTitles: 46 },
+      { titleType: 'short', avgRating: 6.52, numTitles: 3238 },
+      { titleType: 'tvSeries', avgRating: 6.99, numTitles: 116 }
+    ],
+    weightedImportance: 23178.892616693505,
+    actorName: 'Mel Blanc',
+    overallAvgRating: 6.82
+  },
+  {
+    totalTitles: 1663,
+    perTitleType: [
+      { titleType: 'movies', avgRating: 6.9, numTitles: 6 },
+      { titleType: 'short', avgRating: 6.13, numTitles: 1643 },
+      { titleType: 'tvSeries', avgRating: 6.74, numTitles: 14 }
+    ],
+    weightedImportance: 10958.496664058199,
+    actorName: 'Jack Mercer',
+    overallAvgRating: 6.59
+  },
+  {
+    totalTitles: 882,
+    perTitleType: [
+      { titleType: 'movies', avgRating: 6.76, numTitles: 8 },
+      { titleType: 'short', avgRating: 6.32, numTitles: 870 },
+      { titleType: 'tvSeries', avgRating: 7.2, numTitles: 4 }
+    ],
+    weightedImportance: 5963.83224137931,
+    actorName: 'Mae Questel',
+    overallAvgRating: 6.76
+  },
+  {
+    totalTitles: 798,
+    perTitleType: [
+      { titleType: 'movies', avgRating: 6.43, numTitles: 9 },
+      { titleType: 'short', avgRating: 6.2, numTitles: 659 },
+      { titleType: 'tvSeries', avgRating: 6.85, numTitles: 130 }
+    ],
+    weightedImportance: 5183.212493677289,
+    actorName: 'Daws Butler',
+    overallAvgRating: 6.5
+  },
+  {
+    totalTitles: 811,
+    perTitleType: [ { titleType: 'movies', avgRating: 5.95, numTitles: 811 } ],
+    weightedImportance: 4823.1,
+    actorName: 'Brahmanandam',
+    overallAvgRating: 5.95
+  },
+  {
+    totalTitles: 669,
+    perTitleType: [
+      { titleType: 'movies', avgRating: 6.72, numTitles: 22 },
+      { titleType: 'short', avgRating: 6.38, numTitles: 646 },
+      { titleType: 'tvSeries', avgRating: 7.4, numTitles: 1 }
+    ],
+    weightedImportance: 4570.721728117084,
+    actorName: 'Pinto Colvig',
+    overallAvgRating: 6.83
+  },
+  {
+    totalTitles: 657,
+    perTitleType: [
+      { titleType: 'movies', avgRating: 6.3, numTitles: 5 },
+      { titleType: 'short', avgRating: 6.25, numTitles: 632 },
+      { titleType: 'tvSeries', avgRating: 7.38, numTitles: 20 }
+    ],
+    weightedImportance: 4363.852215189873,
+    actorName: 'Jackson Beck',
+    overallAvgRating: 6.64
+  },
+  {
+    totalTitles: 483,
+    perTitleType: [
+      { titleType: 'movies', avgRating: 6.85, numTitles: 14 },
+      { titleType: 'short', avgRating: 6.85, numTitles: 466 },
+      { titleType: 'tvSeries', avgRating: 8.4, numTitles: 3 }
+    ],
+    weightedImportance: 3557.581759656652,
+    actorName: 'Clarence Nash',
+    overallAvgRating: 7.37
+  },
+  {
+    totalTitles: 523,
+    perTitleType: [
+      { titleType: 'movies', avgRating: 6.34, numTitles: 41 },
+      { titleType: 'short', avgRating: 6.33, numTitles: 27 },
+      { titleType: 'tvSeries', avgRating: 6.89, numTitles: 455 }
+    ],
+    weightedImportance: 3408.5530046887766,
+    actorName: 'Frank Welker',
+    overallAvgRating: 6.52
+  },
+  {
+    totalTitles: 522,
+    perTitleType: [
+      { titleType: 'movies', avgRating: 5.91, numTitles: 32 },
+      { titleType: 'short', avgRating: 6.33, numTitles: 490 }
+    ],
+    weightedImportance: 3193.714515306123,
+    actorName: 'Billy Bletcher',
+    overallAvgRating: 6.12
+  }
+]
+imdb> 
+imdb> Queries/top10Episodes.mongodb.js

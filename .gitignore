@@ -1,0 +1,7 @@
+Datasets/*.tsv
+Datasets/*.gz
+dump/dump/
+__pycache__/
+values/
+.venv/
+.ipynb_checkpoints/

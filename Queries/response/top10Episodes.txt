@@ -1,0 +1,881 @@
+Current Mongosh Log ID:	67b27072887846da70e43268
+Connecting to:		mongodb://localhost:27017/imdb?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+2.3.9
+Using MongoDB:		8.0.4
+Using Mongosh:		2.3.9
+
+For mongosh info see: https://www.mongodb.com/docs/mongodb-shell/
+
+------
+   The server generated these startup warnings when booting
+   2025-02-16T19:13:31.814+01:00: Using the XFS filesystem is strongly recommended with the WiredTiger storage engine. See http://dochub.mongodb.org/core/prodnotes-filesystem
+   2025-02-16T19:13:32.225+01:00: Access control is not enabled for the database. Read and write access to data and configuration is unrestricted
+   2025-02-16T19:13:32.225+01:00: For customers running the current memory allocator, we suggest changing the contents of the following sysfsFile
+   2025-02-16T19:13:32.225+01:00: We suggest setting the contents of sysfsFile to 0.
+   2025-02-16T19:13:32.225+01:00: We suggest setting swappiness to 0 or 1, as swapping can cause performance problems.
+------
+
+imdb> already on db imdb
+imdb> ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... [
+  {
+    _id: ObjectId('67ab89a282fc8b274ac1a110'),
+    tconst: 'tt9861270',
+    title: 'Çilgin Dersane at the University',
+    originalTitle: 'Çilgin Dersane: Üniversitede',
+    isAdult: 0,
+    startYear: 2014,
+    endYear: 2014,
+    runtimeMinutes: 90,
+    genres: [ 'Comedy' ],
+    rating: { numVotes: 16229, averageRating: 9.2 },
+    episodes: [
+      {
+        Title: '1. Bolum',
+        isAdult: 0,
+        year: 2014,
+        runtime: 90,
+        ordering: { Season: 1, Episode: 1 },
+        rating: { numVotes: 4590, averageRating: 9.1 }
+      },
+      {
+        Title: '2. Bolum',
+        isAdult: 0,
+        year: 2014,
+        runtime: 90,
+        ordering: { Season: 1, Episode: 2 },
+        rating: { numVotes: 4618, averageRating: 9.1 }
+      },
+      {
+        Title: '3. Bolum',
+        isAdult: 0,
+        year: 2014,
+        runtime: 90,
+        ordering: { Season: 1, Episode: 3 },
+        rating: { numVotes: 4545, averageRating: 9.1 }
+      },
+      {
+        Title: '4. Bolum',
+        isAdult: 0,
+        year: 2014,
+        runtime: 90,
+        ordering: { Season: 1, Episode: 4 },
+        rating: { numVotes: 4530, averageRating: 9.1 }
+      },
+      {
+        Title: 'Final',
+        isAdult: 0,
+        year: 2014,
+        runtime: 90,
+        ordering: { Season: 1, Episode: 5 },
+        rating: { numVotes: 4537, averageRating: 9.1 }
+      }
+    ]
+  },
+  {
+    _id: ObjectId('67ab899f82fc8b274ac161b8'),
+    tconst: 'tt0903747',
+    title: 'Breaking Bad',
+    originalTitle: 'Breaking Bad',
+    isAdult: 0,
+    startYear: 2008,
+    endYear: 2013,
+    runtimeMinutes: 45,
+    genres: [ 'Crime', 'Drama', 'Thriller' ],
+    rating: { numVotes: 2278195, averageRating: 9.5 },
+    episodes: [
+      {
+        Title: 'Ozymandias',
+        isAdult: 0,
+        year: 2013,
+        runtime: 47,
+        ordering: { Season: 5, Episode: 14 },
+        rating: { numVotes: 238339, averageRating: 10 }
+      },
+      {
+        Title: 'Felina',
+        isAdult: 0,
+        year: 2013,
+        runtime: 55,
+        ordering: { Season: 5, Episode: 16 },
+        rating: { numVotes: 152604, averageRating: 9.9 }
+      },
+      {
+        Title: 'Face Off',
+        isAdult: 0,
+        year: 2011,
+        runtime: 50,
+        ordering: { Season: 4, Episode: 13 },
+        rating: { numVotes: 82462, averageRating: 9.9 }
+      },
+      {
+        Title: "To'hajiilee",
+        isAdult: 0,
+        year: 2013,
+        runtime: 46,
+        ordering: { Season: 5, Episode: 13 },
+        rating: { numVotes: 61008, averageRating: 9.8 }
+      },
+      {
+        Title: 'Granite State',
+        isAdult: 0,
+        year: 2013,
+        runtime: 53,
+        ordering: { Season: 5, Episode: 15 },
+        rating: { numVotes: 59594, averageRating: 9.7 }
+      },
+      {
+        Title: 'Full Measure',
+        isAdult: 0,
+        year: 2010,
+        runtime: 47,
+        ordering: { Season: 3, Episode: 13 },
+        rating: { numVotes: 41545, averageRating: 9.7 }
+      },
+      {
+        Title: 'Dead Freight',
+        isAdult: 0,
+        year: 2012,
+        runtime: 48,
+        ordering: { Season: 5, Episode: 5 },
+        rating: { numVotes: 45202, averageRating: 9.7 }
+      },
+      {
+        Title: 'Crawl Space',
+        isAdult: 0,
+        year: 2011,
+        runtime: 47,
+        ordering: { Season: 4, Episode: 11 },
+        rating: { numVotes: 45816, averageRating: 9.7 }
+      },
+      {
+        Title: 'One Minute',
+        isAdult: 0,
+        year: 2010,
+        runtime: 47,
+        ordering: { Season: 3, Episode: 7 },
+        rating: { numVotes: 37323, averageRating: 9.6 }
+      },
+      {
+        Title: 'Salud',
+        isAdult: 0,
+        year: 2011,
+        runtime: 47,
+        ordering: { Season: 4, Episode: 10 },
+        rating: { numVotes: 38722, averageRating: 9.6 }
+      }
+    ]
+  },
+  {
+    _id: ObjectId('67ab89a682fc8b274ac1ef8f'),
+    tconst: 'tt9002164',
+    title: 'BB Ki Vines',
+    originalTitle: 'BB Ki Vines',
+    isAdult: 0,
+    startYear: 2015,
+    endYear: null,
+    runtimeMinutes: null,
+    genres: [ 'Comedy' ],
+    rating: { numVotes: 11535, averageRating: 9.3 },
+    episodes: [
+      {
+        Title: 'My Duty',
+        isAdult: 0,
+        year: 2019,
+        runtime: null,
+        ordering: { Season: null, Episode: null },
+        rating: { numVotes: 36, averageRating: 9.9 }
+      },
+      {
+        Title: 'Mr. Hola Vs. Fameer Fuddi',
+        isAdult: 0,
+        year: 2015,
+        runtime: null,
+        ordering: { Season: null, Episode: null },
+        rating: { numVotes: 55, averageRating: 9.9 }
+      },
+      {
+        Title: 'Angry Masterji - Part 7',
+        isAdult: 0,
+        year: 2016,
+        runtime: null,
+        ordering: { Season: null, Episode: null },
+        rating: { numVotes: 109, averageRating: 9.8 }
+      },
+      {
+        Title: 'Angry Masterji Part 16',
+        isAdult: 0,
+        year: 2023,
+        runtime: null,
+        ordering: { Season: null, Episode: null },
+        rating: { numVotes: 6, averageRating: 9.8 }
+      },
+      {
+        Title: 'Fameer Fuddi',
+        isAdult: 0,
+        year: 2015,
+        runtime: null,
+        ordering: { Season: null, Episode: null },
+        rating: { numVotes: 36, averageRating: 9.7 }
+      },
+      {
+        Title: 'Khush-Khabri',
+        isAdult: 0,
+        year: 2019,
+        runtime: null,
+        ordering: { Season: null, Episode: null },
+        rating: { numVotes: 18, averageRating: 9.7 }
+      },
+      {
+        Title: 'Valentine Shopping',
+        isAdult: 0,
+        year: 2020,
+        runtime: null,
+        ordering: { Season: null, Episode: null },
+        rating: { numVotes: 22, averageRating: 9.6 }
+      },
+      {
+        Title: 'Light Gayi Hai',
+        isAdult: 0,
+        year: 2019,
+        runtime: null,
+        ordering: { Season: null, Episode: null },
+        rating: { numVotes: 18, averageRating: 9.6 }
+      },
+      {
+        Title: 'Kyun Sameer Kyun?',
+        isAdult: 0,
+        year: 2020,
+        runtime: null,
+        ordering: { Season: null, Episode: null },
+        rating: { numVotes: 21, averageRating: 9.6 }
+      },
+      {
+        Title: 'The Salesman - Part 2',
+        isAdult: 0,
+        year: 2018,
+        runtime: null,
+        ordering: { Season: null, Episode: null },
+        rating: { numVotes: 21, averageRating: 9.6 }
+      }
+    ]
+  },
+  {
+    _id: ObjectId('67ab899c82fc8b274ac11371'),
+    tconst: 'tt0071075',
+    title: 'The World at War',
+    originalTitle: 'The World at War',
+    isAdult: 0,
+    startYear: 1973,
+    endYear: 1974,
+    runtimeMinutes: 52,
+    genres: [ 'Documentary', 'History', 'War' ],
+    rating: { numVotes: 32603, averageRating: 9.2 },
+    episodes: [
+      {
+        Title: 'Genocide: 1941-1945',
+        isAdult: 0,
+        year: 1974,
+        runtime: 53,
+        ordering: { Season: 1, Episode: 20 },
+        rating: { numVotes: 484, averageRating: 9.2 }
+      },
+      {
+        Title: 'Stalingrad: June 1942-February 1943',
+        isAdult: 0,
+        year: 1974,
+        runtime: 52,
+        ordering: { Season: 1, Episode: 9 },
+        rating: { numVotes: 501, averageRating: 9 }
+      },
+      {
+        Title: 'Nemesis: Germany - February-May 1945',
+        isAdult: 0,
+        year: 1974,
+        runtime: 53,
+        ordering: { Season: 1, Episode: 21 },
+        rating: { numVotes: 392, averageRating: 9 }
+      },
+      {
+        Title: 'Morning: June-August 1944',
+        isAdult: 0,
+        year: 1974,
+        runtime: 52,
+        ordering: { Season: 1, Episode: 17 },
+        rating: { numVotes: 397, averageRating: 9 }
+      },
+      {
+        Title: 'Barbarossa: June-December 1941',
+        isAdult: 0,
+        year: 1973,
+        runtime: 53,
+        ordering: { Season: 1, Episode: 5 },
+        rating: { numVotes: 543, averageRating: 8.9 }
+      },
+      {
+        Title: 'Inside the Reich: Germany - 1940-1944',
+        isAdult: 0,
+        year: 1974,
+        runtime: 53,
+        ordering: { Season: 1, Episode: 16 },
+        rating: { numVotes: 415, averageRating: 8.9 }
+      },
+      {
+        Title: 'The Bomb: February-September 1945',
+        isAdult: 0,
+        year: 1974,
+        runtime: 53,
+        ordering: { Season: 1, Episode: 24 },
+        rating: { numVotes: 376, averageRating: 8.9 }
+      },
+      {
+        Title: 'Red Star: The Soviet Union - 1941-1943',
+        isAdult: 0,
+        year: 1974,
+        runtime: 53,
+        ordering: { Season: 1, Episode: 11 },
+        rating: { numVotes: 456, averageRating: 8.8 }
+      },
+      {
+        Title: 'France Falls: May-June 1940',
+        isAdult: 0,
+        year: 1973,
+        runtime: 53,
+        ordering: { Season: 1, Episode: 3 },
+        rating: { numVotes: 563, averageRating: 8.8 }
+      },
+      {
+        Title: 'A New Germany: 1933-1939',
+        isAdult: 0,
+        year: 1973,
+        runtime: 52,
+        ordering: { Season: 1, Episode: 1 },
+        rating: { numVotes: 744, averageRating: 8.7 }
+      }
+    ]
+  },
+  {
+    _id: ObjectId('67ab899782fc8b274ac0c46f'),
+    tconst: 'tt5152226',
+    title: 'Tree of Life',
+    originalTitle: 'Hayat Agaci',
+    isAdult: 0,
+    startYear: 2014,
+    endYear: 2014,
+    runtimeMinutes: null,
+    genres: [ 'Drama' ],
+    rating: { numVotes: 16162, averageRating: 9.4 },
+    episodes: [
+      {
+        Title: 'Episode #1.10',
+        isAdult: 0,
+        year: 2014,
+        runtime: null,
+        ordering: { Season: 1, Episode: 10 },
+        rating: { numVotes: 4393, averageRating: 9.1 }
+      },
+      {
+        Title: 'Episode #1.1',
+        isAdult: 0,
+        year: 2014,
+        runtime: null,
+        ordering: { Season: 1, Episode: 1 },
+        rating: { numVotes: 4588, averageRating: 9.1 }
+      },
+      {
+        Title: 'Episode #1.9',
+        isAdult: 0,
+        year: 2014,
+        runtime: null,
+        ordering: { Season: 1, Episode: 9 },
+        rating: { numVotes: 4405, averageRating: 9.1 }
+      },
+      {
+        Title: 'Final',
+        isAdult: 0,
+        year: 2014,
+        runtime: null,
+        ordering: { Season: 1, Episode: 13 },
+        rating: { numVotes: 4393, averageRating: 9.1 }
+      },
+      {
+        Title: 'Episode #1.6',
+        isAdult: 0,
+        year: 2014,
+        runtime: null,
+        ordering: { Season: 1, Episode: 6 },
+        rating: { numVotes: 4441, averageRating: 9.1 }
+      },
+      {
+        Title: 'Episode #1.11',
+        isAdult: 0,
+        year: 2014,
+        runtime: null,
+        ordering: { Season: 1, Episode: 11 },
+        rating: { numVotes: 4378, averageRating: 9.1 }
+      },
+      {
+        Title: 'Episode #1.3',
+        isAdult: 0,
+        year: 2014,
+        runtime: null,
+        ordering: { Season: 1, Episode: 3 },
+        rating: { numVotes: 4514, averageRating: 9.1 }
+      },
+      {
+        Title: 'Episode #1.12',
+        isAdult: 0,
+        year: 2014,
+        runtime: null,
+        ordering: { Season: 1, Episode: 12 },
+        rating: { numVotes: 4370, averageRating: 9 }
+      },
+      {
+        Title: 'Episode #1.2',
+        isAdult: 0,
+        year: 2014,
+        runtime: null,
+        ordering: { Season: 1, Episode: 2 },
+        rating: { numVotes: 4538, averageRating: 9 }
+      },
+      {
+        Title: 'Episode #1.4',
+        isAdult: 0,
+        year: 2014,
+        runtime: null,
+        ordering: { Season: 1, Episode: 4 },
+        rating: { numVotes: 4488, averageRating: 9 }
+      }
+    ]
+  },
+  {
+    _id: ObjectId('67ab89b482fc8b274ac314c5'),
+    tconst: 'tt4202274',
+    title: 'The Filthy Frank Show',
+    originalTitle: 'The Filthy Frank Show',
+    isAdult: 0,
+    startYear: 2011,
+    endYear: 2017,
+    runtimeMinutes: null,
+    genres: [ 'Comedy', 'Short' ],
+    rating: { numVotes: 33756, averageRating: 9.2 },
+    episodes: [
+      {
+        Title: 'Pimp My Wheelchair',
+        isAdult: 0,
+        year: 2016,
+        runtime: null,
+        ordering: { Season: 6, Episode: 16 },
+        rating: { numVotes: 331, averageRating: 9.6 }
+      },
+      {
+        Title: 'I Hate Asians',
+        isAdult: 0,
+        year: 2012,
+        runtime: null,
+        ordering: { Season: null, Episode: null },
+        rating: { numVotes: 21, averageRating: 9.6 }
+      },
+      {
+        Title: 'Weeaboos',
+        isAdult: 0,
+        year: 2014,
+        runtime: null,
+        ordering: { Season: 4, Episode: 36 },
+        rating: { numVotes: 210, averageRating: 9.6 }
+      },
+      {
+        Title: 'Filthy Frank vs Chin Chin',
+        isAdult: 0,
+        year: 2016,
+        runtime: 15,
+        ordering: { Season: 6, Episode: 18 },
+        rating: { numVotes: 104, averageRating: 9.5 }
+      },
+      {
+        Title: 'Francis of the Filth',
+        isAdult: 0,
+        year: 2017,
+        runtime: 8,
+        ordering: { Season: 7, Episode: 8 },
+        rating: { numVotes: 109, averageRating: 9.5 }
+      },
+      {
+        Title: 'Loser Reads Hater Comments 5',
+        isAdult: 0,
+        year: 2016,
+        runtime: null,
+        ordering: { Season: 6, Episode: 13 },
+        rating: { numVotes: 82, averageRating: 9.5 }
+      },
+      {
+        Title: "The Gentlemen's Guide",
+        isAdult: 0,
+        year: 2016,
+        runtime: null,
+        ordering: { Season: 6, Episode: 5 },
+        rating: { numVotes: 104, averageRating: 9.5 }
+      },
+      {
+        Title: 'Hair Cake',
+        isAdult: 0,
+        year: 2015,
+        runtime: null,
+        ordering: { Season: 5, Episode: 25 },
+        rating: { numVotes: 168, averageRating: 9.5 }
+      },
+      {
+        Title: 'Rat Chef',
+        isAdult: 0,
+        year: 2015,
+        runtime: null,
+        ordering: { Season: 5, Episode: 8 },
+        rating: { numVotes: 80, averageRating: 9.4 }
+      },
+      {
+        Title: 'Fried Noodles',
+        isAdult: 0,
+        year: 2016,
+        runtime: null,
+        ordering: { Season: 6, Episode: 6 },
+        rating: { numVotes: 67, averageRating: 9.4 }
+      }
+    ]
+  },
+  {
+    _id: ObjectId('67ab89bb82fc8b274ac3f6f5'),
+    tconst: 'tt30263074',
+    title: 'Sapne Vs Everyone',
+    originalTitle: 'Sapne Vs Everyone',
+    isAdult: 0,
+    startYear: 2023,
+    endYear: null,
+    runtimeMinutes: null,
+    genres: [ 'Drama' ],
+    rating: { numVotes: 72916, averageRating: 9.3 },
+    episodes: [
+      {
+        Title: 'Sapne Vs Zamana',
+        isAdult: 0,
+        year: 2024,
+        runtime: null,
+        ordering: { Season: 1, Episode: 5 },
+        rating: { numVotes: 7420, averageRating: 9.6 }
+      },
+      {
+        Title: 'Sapne Vs Kismat',
+        isAdult: 0,
+        year: 2023,
+        runtime: null,
+        ordering: { Season: 1, Episode: 4 },
+        rating: { numVotes: 5796, averageRating: 9.6 }
+      },
+      {
+        Title: 'Sapne Vs Imaandaari',
+        isAdult: 0,
+        year: 2023,
+        runtime: null,
+        ordering: { Season: 1, Episode: 3 },
+        rating: { numVotes: 5997, averageRating: 9.6 }
+      },
+      {
+        Title: 'Sapne Vs Zimmedari',
+        isAdult: 0,
+        year: 2023,
+        runtime: null,
+        ordering: { Season: 1, Episode: 1 },
+        rating: { numVotes: 5237, averageRating: 9.5 }
+      },
+      {
+        Title: 'Sapne Vs Darr',
+        isAdult: 0,
+        year: 2023,
+        runtime: null,
+        ordering: { Season: 1, Episode: 2 },
+        rating: { numVotes: 4928, averageRating: 9.5 }
+      }
+    ]
+  },
+  {
+    _id: ObjectId('67ab89a882fc8b274ac216ea'),
+    tconst: 'tt0417299',
+    title: 'Avatar: The Last Airbender',
+    originalTitle: 'Avatar: The Last Airbender',
+    isAdult: 0,
+    startYear: 2005,
+    endYear: 2008,
+    runtimeMinutes: 23,
+    genres: [ 'Action', 'Adventure', 'Animation' ],
+    rating: { numVotes: 397447, averageRating: 9.3 },
+    episodes: [
+      {
+        Title: "Sozin's Comet, Part 4: Avatar Aang",
+        isAdult: 0,
+        year: 2008,
+        runtime: 21,
+        ordering: { Season: 3, Episode: 21 },
+        rating: { numVotes: 18856, averageRating: 9.9 }
+      },
+      {
+        Title: "Sozin's Comet, Part 3: Into the Inferno",
+        isAdult: 0,
+        year: 2008,
+        runtime: 22,
+        ordering: { Season: 3, Episode: 20 },
+        rating: { numVotes: 11302, averageRating: 9.8 }
+      },
+      {
+        Title: 'The Crossroads of Destiny',
+        isAdult: 0,
+        year: 2006,
+        runtime: 25,
+        ordering: { Season: 2, Episode: 20 },
+        rating: { numVotes: 7920, averageRating: 9.6 }
+      },
+      {
+        Title: 'The Siege of the North, Part 2',
+        isAdult: 0,
+        year: 2005,
+        runtime: 24,
+        ordering: { Season: 1, Episode: 20 },
+        rating: { numVotes: 6816, averageRating: 9.6 }
+      },
+      {
+        Title: 'Zuko Alone',
+        isAdult: 0,
+        year: 2006,
+        runtime: 25,
+        ordering: { Season: 2, Episode: 7 },
+        rating: { numVotes: 8449, averageRating: 9.5 }
+      },
+      {
+        Title: 'The Avatar and the Fire Lord',
+        isAdult: 0,
+        year: 2007,
+        runtime: 25,
+        ordering: { Season: 3, Episode: 6 },
+        rating: { numVotes: 7364, averageRating: 9.5 }
+      },
+      {
+        Title: "Sozin's Comet, Part 2: The Old Masters",
+        isAdult: 0,
+        year: 2008,
+        runtime: 22,
+        ordering: { Season: 3, Episode: 19 },
+        rating: { numVotes: 7423, averageRating: 9.5 }
+      },
+      {
+        Title: 'The Day of Black Sun, Part 2: The Eclipse',
+        isAdult: 0,
+        year: 2007,
+        runtime: 22,
+        ordering: { Season: 3, Episode: 11 },
+        rating: { numVotes: 6489, averageRating: 9.4 }
+      },
+      {
+        Title: 'The Siege of the North, Part 1',
+        isAdult: 0,
+        year: 2005,
+        runtime: 25,
+        ordering: { Season: 1, Episode: 19 },
+        rating: { numVotes: 7005, averageRating: 9.3 }
+      },
+      {
+        Title: 'The Tales of Ba Sing Se',
+        isAdult: 0,
+        year: 2006,
+        runtime: 25,
+        ordering: { Season: 2, Episode: 15 },
+        rating: { numVotes: 8350, averageRating: 9.3 }
+      }
+    ]
+  },
+  {
+    _id: ObjectId('67ab899682fc8b274ac0aa0b'),
+    tconst: 'tt7678620',
+    title: 'Bluey',
+    originalTitle: 'Bluey',
+    isAdult: 0,
+    startYear: 2018,
+    endYear: null,
+    runtimeMinutes: 7,
+    genres: [ 'Animation', 'Family' ],
+    rating: { numVotes: 36332, averageRating: 9.3 },
+    episodes: [
+      {
+        Title: 'Sleepytime',
+        isAdult: 0,
+        year: 2020,
+        runtime: 8,
+        ordering: { Season: 2, Episode: 26 },
+        rating: { numVotes: 9581, averageRating: 9.8 }
+      },
+      {
+        Title: 'The Sign',
+        isAdult: 0,
+        year: 2024,
+        runtime: 28,
+        ordering: { Season: 3, Episode: 49 },
+        rating: { numVotes: 3626, averageRating: 9.8 }
+      },
+      {
+        Title: 'Cricket',
+        isAdult: 0,
+        year: 2023,
+        runtime: 7,
+        ordering: { Season: 3, Episode: 47 },
+        rating: { numVotes: 1695, averageRating: 9.7 }
+      },
+      {
+        Title: 'Baby Race',
+        isAdult: 0,
+        year: 2020,
+        runtime: 7,
+        ordering: { Season: 2, Episode: 50 },
+        rating: { numVotes: 2090, averageRating: 9.6 }
+      },
+      {
+        Title: 'Camping',
+        isAdult: 0,
+        year: 2019,
+        runtime: 7,
+        ordering: { Season: 1, Episode: 43 },
+        rating: { numVotes: 1395, averageRating: 9.6 }
+      },
+      {
+        Title: 'Onesies',
+        isAdult: 0,
+        year: 2022,
+        runtime: 7,
+        ordering: { Season: 3, Episode: 31 },
+        rating: { numVotes: 914, averageRating: 9.5 }
+      },
+      {
+        Title: 'Rain',
+        isAdult: 0,
+        year: 2021,
+        runtime: 7,
+        ordering: { Season: 3, Episode: 18 },
+        rating: { numVotes: 1054, averageRating: 9.5 }
+      },
+      {
+        Title: 'Fairytale',
+        isAdult: 0,
+        year: 2021,
+        runtime: 7,
+        ordering: { Season: 3, Episode: 26 },
+        rating: { numVotes: 828, averageRating: 9.4 }
+      },
+      {
+        Title: 'Dragon',
+        isAdult: 0,
+        year: 2023,
+        runtime: 7,
+        ordering: { Season: 3, Episode: 43 },
+        rating: { numVotes: 666, averageRating: 9.3 }
+      },
+      {
+        Title: 'Bumpy and the Wise Old Wolfhound',
+        isAdult: 0,
+        year: 2019,
+        runtime: 7,
+        ordering: { Season: 1, Episode: 32 },
+        rating: { numVotes: 686, averageRating: 9.2 }
+      }
+    ]
+  },
+  {
+    _id: ObjectId('67ab89a282fc8b274ac1a1af'),
+    tconst: 'tt0306414',
+    title: 'The Wire',
+    originalTitle: 'The Wire',
+    isAdult: 0,
+    startYear: 2002,
+    endYear: 2008,
+    runtimeMinutes: 60,
+    genres: [ 'Crime', 'Drama', 'Thriller' ],
+    rating: { numVotes: 397207, averageRating: 9.3 },
+    episodes: [
+      {
+        Title: '-30-',
+        isAdult: 0,
+        year: 2008,
+        runtime: 93,
+        ordering: { Season: 5, Episode: 10 },
+        rating: { numVotes: 7424, averageRating: 9.6 }
+      },
+      {
+        Title: 'Middle Ground',
+        isAdult: 0,
+        year: 2004,
+        runtime: 59,
+        ordering: { Season: 3, Episode: 11 },
+        rating: { numVotes: 7824, averageRating: 9.6 }
+      },
+      {
+        Title: 'Final Grades',
+        isAdult: 0,
+        year: 2006,
+        runtime: 79,
+        ordering: { Season: 4, Episode: 13 },
+        rating: { numVotes: 6657, averageRating: 9.5 }
+      },
+      {
+        Title: "That's Got His Own",
+        isAdult: 0,
+        year: 2006,
+        runtime: 59,
+        ordering: { Season: 4, Episode: 12 },
+        rating: { numVotes: 5324, averageRating: 9.3 }
+      },
+      {
+        Title: 'Mission Accomplished',
+        isAdult: 0,
+        year: 2004,
+        runtime: 63,
+        ordering: { Season: 3, Episode: 12 },
+        rating: { numVotes: 5709, averageRating: 9.3 }
+      },
+      {
+        Title: 'Late Editions',
+        isAdult: 0,
+        year: 2008,
+        runtime: 60,
+        ordering: { Season: 5, Episode: 9 },
+        rating: { numVotes: 5173, averageRating: 9.3 }
+      },
+      {
+        Title: 'Bad Dreams',
+        isAdult: 0,
+        year: 2003,
+        runtime: 58,
+        ordering: { Season: 2, Episode: 11 },
+        rating: { numVotes: 5980, averageRating: 9.2 }
+      },
+      {
+        Title: 'The Cost',
+        isAdult: 0,
+        year: 2002,
+        runtime: 56,
+        ordering: { Season: 1, Episode: 10 },
+        rating: { numVotes: 6950, averageRating: 9.2 }
+      },
+      {
+        Title: 'Cleaning Up',
+        isAdult: 0,
+        year: 2002,
+        runtime: 56,
+        ordering: { Season: 1, Episode: 12 },
+        rating: { numVotes: 6523, averageRating: 9.1 }
+      },
+      {
+        Title: 'Storm Warnings',
+        isAdult: 0,
+        year: 2003,
+        runtime: 59,
+        ordering: { Season: 2, Episode: 10 },
+        rating: { numVotes: 5429, averageRating: 9 }
+      }
+    ]
+  }
+]
+imdb> 
+imdb> 

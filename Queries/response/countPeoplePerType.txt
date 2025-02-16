@@ -1,0 +1,185 @@
+Current Mongosh Log ID:	67b27041606bcda716e43268
+Connecting to:		mongodb://localhost:27017/imdb?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+2.3.9
+Using MongoDB:		8.0.4
+Using Mongosh:		2.3.9
+
+For mongosh info see: https://www.mongodb.com/docs/mongodb-shell/
+
+------
+   The server generated these startup warnings when booting
+   2025-02-16T19:13:31.814+01:00: Using the XFS filesystem is strongly recommended with the WiredTiger storage engine. See http://dochub.mongodb.org/core/prodnotes-filesystem
+   2025-02-16T19:13:32.225+01:00: Access control is not enabled for the database. Read and write access to data and configuration is unrestricted
+   2025-02-16T19:13:32.225+01:00: For customers running the current memory allocator, we suggest changing the contents of the following sysfsFile
+   2025-02-16T19:13:32.225+01:00: We suggest setting the contents of sysfsFile to 0.
+   2025-02-16T19:13:32.225+01:00: We suggest setting swappiness to 0 or 1, as swapping can cause performance problems.
+------
+
+imdb> 
+imdb> 
+imdb> 
+imdb> already on db imdb
+imdb> ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... [
+  {
+    primaryName: 'Brahmanandam',
+    movieCount: 811,
+    tvSeriesCount: 0,
+    overallCount: 811,
+    avgRating: 5.947102342786684,
+    nconst: 'nm0103977'
+  },
+  {
+    primaryName: 'Ilaiyaraaja',
+    movieCount: 776,
+    tvSeriesCount: 0,
+    overallCount: 776,
+    avgRating: 6.324742268041237,
+    nconst: 'nm0006137'
+  },
+  {
+    primaryName: 'Jagathy Sreekumar',
+    movieCount: 537,
+    tvSeriesCount: 0,
+    overallCount: 537,
+    avgRating: 5.570763500931099,
+    nconst: 'nm0415549'
+  },
+  {
+    primaryName: 'Sergey A.',
+    movieCount: 508,
+    tvSeriesCount: 10,
+    overallCount: 518,
+    avgRating: 7.30984555984556,
+    nconst: 'nm5954636'
+  },
+  {
+    primaryName: 'Jesús Franco',
+    movieCount: 514,
+    tvSeriesCount: 0,
+    overallCount: 514,
+    avgRating: 4.919844357976654,
+    nconst: 'nm0001238'
+  },
+  {
+    primaryName: 'Frank Welker',
+    movieCount: 41,
+    tvSeriesCount: 458,
+    overallCount: 499,
+    avgRating: 6.848697394789579,
+    nconst: 'nm0919798'
+  },
+  {
+    primaryName: 'Jing Wong',
+    movieCount: 499,
+    tvSeriesCount: 0,
+    overallCount: 499,
+    avgRating: 5.604208416833667,
+    nconst: 'nm0939147'
+  },
+  {
+    primaryName: 'Hsing-Lung Chiang',
+    movieCount: 490,
+    tvSeriesCount: 0,
+    overallCount: 490,
+    avgRating: 6.281632653061225,
+    nconst: 'nm0156963'
+  },
+  {
+    primaryName: 'Shakti Kapoor',
+    movieCount: 487,
+    tvSeriesCount: 3,
+    overallCount: 490,
+    avgRating: 5.225714285714285,
+    nconst: 'nm0007106'
+  },
+  {
+    primaryName: 'Laxmikant Shantaram Kudalkar',
+    movieCount: 481,
+    tvSeriesCount: 0,
+    overallCount: 481,
+    avgRating: 5.945114345114345,
+    nconst: 'nm0473742'
+  },
+  {
+    primaryName: 'Pyarelal Ramprasad Sharma',
+    movieCount: 479,
+    tvSeriesCount: 0,
+    overallCount: 479,
+    avgRating: 5.946555323590815,
+    nconst: 'nm0701403'
+  },
+  {
+    primaryName: 'Carlos Savage',
+    movieCount: 478,
+    tvSeriesCount: 0,
+    overallCount: 478,
+    avgRating: 6.343096234309623,
+    nconst: 'nm0767266'
+  },
+  {
+    primaryName: 'Ron Jeremy',
+    movieCount: 451,
+    tvSeriesCount: 20,
+    overallCount: 471,
+    avgRating: 5.881316348195329,
+    nconst: 'nm0000465'
+  },
+  {
+    primaryName: 'Bappi Lahiri',
+    movieCount: 446,
+    tvSeriesCount: 1,
+    overallCount: 447,
+    avgRating: 5.671364653243848,
+    nconst: 'nm0481568'
+  },
+  {
+    primaryName: 'Mammootty',
+    movieCount: 430,
+    tvSeriesCount: 1,
+    overallCount: 431,
+    avgRating: 6.374941995359628,
+    nconst: 'nm0007123'
+  },
+  {
+    primaryName: 'Eric Roberts',
+    movieCount: 395,
+    tvSeriesCount: 34,
+    overallCount: 429,
+    avgRating: 4.913053613053613,
+    nconst: 'nm0000616'
+  },
+  {
+    primaryName: 'Kader Khan',
+    movieCount: 421,
+    tvSeriesCount: 0,
+    overallCount: 421,
+    avgRating: 5.41021377672209,
+    nconst: 'nm0434318'
+  },
+  {
+    primaryName: 'Cüneyt Arkin',
+    movieCount: 397,
+    tvSeriesCount: 14,
+    overallCount: 411,
+    avgRating: 5.1007299270073,
+    nconst: 'nm0035067'
+  },
+  {
+    primaryName: 'Tanikella Bharani',
+    movieCount: 406,
+    tvSeriesCount: 1,
+    overallCount: 407,
+    avgRating: 6.167321867321867,
+    nconst: 'nm0080238'
+  },
+  {
+    primaryName: 'Mary Vernieu',
+    movieCount: 407,
+    tvSeriesCount: 0,
+    overallCount: 407,
+    avgRating: 6.0181818181818185,
+    nconst: 'nm0894611'
+  }
+]
+Type "it" for more
+imdb> 
+imdb> 

@@ -1,0 +1,59 @@
+Current Mongosh Log ID:	67b26f75069487d1d0e43268
+Connecting to:		mongodb://localhost:27017/imdb?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+2.3.9
+Using MongoDB:		8.0.4
+Using Mongosh:		2.3.9
+
+For mongosh info see: https://www.mongodb.com/docs/mongodb-shell/
+
+------
+   The server generated these startup warnings when booting
+   2025-02-16T19:13:31.814+01:00: Using the XFS filesystem is strongly recommended with the WiredTiger storage engine. See http://dochub.mongodb.org/core/prodnotes-filesystem
+   2025-02-16T19:13:32.225+01:00: Access control is not enabled for the database. Read and write access to data and configuration is unrestricted
+   2025-02-16T19:13:32.225+01:00: For customers running the current memory allocator, we suggest changing the contents of the following sysfsFile
+   2025-02-16T19:13:32.225+01:00: We suggest setting the contents of sysfsFile to 0.
+   2025-02-16T19:13:32.225+01:00: We suggest setting swappiness to 0 or 1, as swapping can cause performance problems.
+------
+
+imdb> 
+imdb> already on db imdb
+imdb> 
+imdb> ... ... ... ... ... ... ... ... ... ... ... ... ... [
+  {
+    _id: 'Documentary',
+    avgRating: 7.216559696875967,
+    totalMovies: 137489
+  },
+  { _id: 'News', avgRating: 7.209453471196455, totalMovies: 1467 },
+  {
+    _id: 'Biography',
+    avgRating: 6.9426040744021265,
+    totalMovies: 18836
+  },
+  { _id: 'History', avgRating: 6.785621775875316, totalMovies: 15679 },
+  { _id: 'Music', avgRating: 6.760966588583405, totalMovies: 14309 },
+  { _id: 'Game-Show', avgRating: 6.75, totalMovies: 31 },
+  { _id: 'Sport', avgRating: 6.618868388683887, totalMovies: 8149 },
+  { _id: 'Reality-TV', avgRating: 6.536781609195403, totalMovies: 578 },
+  { _id: 'Film-Noir', avgRating: 6.457208765859284, totalMovies: 867 },
+  { _id: 'War', avgRating: 6.369193228610645, totalMovies: 9811 },
+  { _id: 'Talk-Show', avgRating: 6.335714285714286, totalMovies: 203 },
+  {
+    _id: 'Animation',
+    avgRating: 6.332064550078933,
+    totalMovies: 10202
+  },
+  { _id: 'Drama', avgRating: 6.2298244160435265, totalMovies: 253856 },
+  { _id: 'Family', avgRating: 6.189498710509349, totalMovies: 19056 },
+  { _id: 'Musical', avgRating: 6.1641269377010826, totalMovies: 10834 },
+  { _id: 'Romance', avgRating: 6.090793089909698, totalMovies: 51108 },
+  { _id: 'Crime', avgRating: 5.97665965112546, totalMovies: 40547 },
+  { _id: 'Comedy', avgRating: 5.889929130445866, totalMovies: 117949 },
+  { _id: 'Western', avgRating: 5.863288789903489, totalMovies: 8407 },
+  {
+    _id: 'Adventure',
+    avgRating: 5.856670566095316,
+    totalMovies: 30185
+  }
+]
+Type "it" for more
+imdb> 

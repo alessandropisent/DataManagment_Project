@@ -1,0 +1,102 @@
+Current Mongosh Log ID:	67b27082c852e17421e43268
+Connecting to:		mongodb://localhost:27017/imdb?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+2.3.9
+Using MongoDB:		8.0.4
+Using Mongosh:		2.3.9
+
+For mongosh info see: https://www.mongodb.com/docs/mongodb-shell/
+
+------
+   The server generated these startup warnings when booting
+   2025-02-16T19:13:31.814+01:00: Using the XFS filesystem is strongly recommended with the WiredTiger storage engine. See http://dochub.mongodb.org/core/prodnotes-filesystem
+   2025-02-16T19:13:32.225+01:00: Access control is not enabled for the database. Read and write access to data and configuration is unrestricted
+   2025-02-16T19:13:32.225+01:00: For customers running the current memory allocator, we suggest changing the contents of the following sysfsFile
+   2025-02-16T19:13:32.225+01:00: We suggest setting the contents of sysfsFile to 0.
+   2025-02-16T19:13:32.225+01:00: We suggest setting swappiness to 0 or 1, as swapping can cause performance problems.
+------
+
+imdb> already on db imdb
+imdb> 
+imdb> ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... [
+  {
+    Title: 'The Rains of Castamere',
+    Season: 3,
+    Episode: 9,
+    Rating: 9.9,
+    Votes: 127688,
+    Year: 2013
+  },
+  {
+    Title: 'The Winds of Winter',
+    Season: 6,
+    Episode: 10,
+    Rating: 9.9,
+    Votes: 169386,
+    Year: 2016
+  },
+  {
+    Title: 'Battle of the Bastards',
+    Season: 6,
+    Episode: 9,
+    Rating: 9.9,
+    Votes: 236023,
+    Year: 2016
+  },
+  {
+    Title: 'Hardhome',
+    Season: 5,
+    Episode: 8,
+    Rating: 9.8,
+    Votes: 113961,
+    Year: 2015
+  },
+  {
+    Title: 'The Laws of Gods and Men',
+    Season: 4,
+    Episode: 6,
+    Rating: 9.7,
+    Votes: 64625,
+    Year: 2014
+  },
+  {
+    Title: 'Blackwater',
+    Season: 2,
+    Episode: 9,
+    Rating: 9.7,
+    Votes: 59748,
+    Year: 2012
+  },
+  {
+    Title: 'The Door',
+    Season: 6,
+    Episode: 5,
+    Rating: 9.7,
+    Votes: 83136,
+    Year: 2016
+  },
+  {
+    Title: 'The Spoils of War',
+    Season: 7,
+    Episode: 4,
+    Rating: 9.7,
+    Votes: 99304,
+    Year: 2017
+  },
+  {
+    Title: 'The Lion and the Rose',
+    Season: 4,
+    Episode: 2,
+    Rating: 9.7,
+    Votes: 65571,
+    Year: 2014
+  },
+  {
+    Title: 'The Children',
+    Season: 4,
+    Episode: 10,
+    Rating: 9.7,
+    Votes: 56499,
+    Year: 2014
+  }
+]
+imdb> 
+imdb> 

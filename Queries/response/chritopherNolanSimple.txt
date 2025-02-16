@@ -1,0 +1,175 @@
+Current Mongosh Log ID:	67b2701e41f41a160fe43268
+Connecting to:		mongodb://localhost:27017/imdb?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+2.3.9
+Using MongoDB:		8.0.4
+Using Mongosh:		2.3.9
+
+For mongosh info see: https://www.mongodb.com/docs/mongodb-shell/
+
+------
+   The server generated these startup warnings when booting
+   2025-02-16T19:13:31.814+01:00: Using the XFS filesystem is strongly recommended with the WiredTiger storage engine. See http://dochub.mongodb.org/core/prodnotes-filesystem
+   2025-02-16T19:13:32.225+01:00: Access control is not enabled for the database. Read and write access to data and configuration is unrestricted
+   2025-02-16T19:13:32.225+01:00: For customers running the current memory allocator, we suggest changing the contents of the following sysfsFile
+   2025-02-16T19:13:32.225+01:00: We suggest setting the contents of sysfsFile to 0.
+   2025-02-16T19:13:32.225+01:00: We suggest setting swappiness to 0 or 1, as swapping can cause performance problems.
+------
+
+imdb> already on db imdb
+imdb> ... ... ... [
+  {
+    _id: ObjectId('67ab87d882fc8b274ab70507'),
+    tconst: 'tt0468569',
+    title: 'The Dark Knight',
+    originalTitle: 'The Dark Knight',
+    isAdult: 0,
+    year: 2008,
+    runtimeMinutes: 152,
+    genres: [ 'Action', 'Crime', 'Drama' ],
+    rating: { numVotes: 2981066, averageRating: 9 }
+  },
+  {
+    _id: ObjectId('67ab87d782fc8b274ab682b4'),
+    tconst: 'tt1375666',
+    title: 'Inception',
+    originalTitle: 'Inception',
+    isAdult: 0,
+    year: 2010,
+    runtimeMinutes: 148,
+    genres: [ 'Action', 'Adventure', 'Sci-Fi' ],
+    rating: { numVotes: 2648705, averageRating: 8.8 }
+  },
+  {
+    _id: ObjectId('67ab87d082fc8b274ab571e6'),
+    tconst: 'tt0816692',
+    title: 'Interstellar',
+    originalTitle: 'Interstellar',
+    isAdult: 0,
+    year: 2014,
+    runtimeMinutes: 169,
+    genres: [ 'Adventure', 'Drama', 'Sci-Fi' ],
+    rating: { numVotes: 2274841, averageRating: 8.7 }
+  },
+  {
+    _id: ObjectId('67ab87d782fc8b274ab6e62f'),
+    tconst: 'tt0482571',
+    title: 'The Prestige',
+    originalTitle: 'The Prestige',
+    isAdult: 0,
+    year: 2006,
+    runtimeMinutes: 130,
+    genres: [ 'Drama', 'Mystery', 'Sci-Fi' ],
+    rating: { numVotes: 1495913, averageRating: 8.5 }
+  },
+  {
+    _id: ObjectId('67ab87d082fc8b274ab58e00'),
+    tconst: 'tt1345836',
+    title: 'The Dark Knight Rises',
+    originalTitle: 'The Dark Knight Rises',
+    isAdult: 0,
+    year: 2012,
+    runtimeMinutes: 164,
+    genres: [ 'Action', 'Drama', 'Thriller' ],
+    rating: { numVotes: 1891905, averageRating: 8.4 }
+  },
+  {
+    _id: ObjectId('67ab87fa82fc8b274abcb722'),
+    tconst: 'tt0209144',
+    title: 'Memento',
+    originalTitle: 'Memento',
+    isAdult: 0,
+    year: 2000,
+    runtimeMinutes: 113,
+    genres: [ 'Mystery', 'Thriller' ],
+    rating: { numVotes: 1364144, averageRating: 8.4 }
+  },
+  {
+    _id: ObjectId('67ab880682fc8b274abf2fe4'),
+    tconst: 'tt15398776',
+    title: 'Oppenheimer',
+    originalTitle: 'Oppenheimer',
+    isAdult: 0,
+    year: 2023,
+    runtimeMinutes: 180,
+    genres: [ 'Biography', 'Drama', 'History' ],
+    rating: { numVotes: 850514, averageRating: 8.3 }
+  },
+  {
+    _id: ObjectId('67ab87f582fc8b274abb932f'),
+    tconst: 'tt0372784',
+    title: 'Batman Begins',
+    originalTitle: 'Batman Begins',
+    isAdult: 0,
+    year: 2005,
+    runtimeMinutes: 140,
+    genres: [ 'Action', 'Drama' ],
+    rating: { numVotes: 1629230, averageRating: 8.2 }
+  },
+  {
+    _id: ObjectId('67ab87d882fc8b274ab77b06'),
+    tconst: 'tt5013056',
+    title: 'Dunkirk',
+    originalTitle: 'Dunkirk',
+    isAdult: 0,
+    year: 2017,
+    runtimeMinutes: 106,
+    genres: [ 'Action', 'Drama', 'History' ],
+    rating: { numVotes: 764895, averageRating: 7.8 }
+  },
+  {
+    _id: ObjectId('67ab87f182fc8b274abae374'),
+    tconst: 'tt0154506',
+    title: 'Following',
+    originalTitle: 'Following',
+    isAdult: 0,
+    year: 1998,
+    runtimeMinutes: 69,
+    genres: [ 'Crime', 'Mystery', 'Thriller' ],
+    rating: { numVotes: 104809, averageRating: 7.4 }
+  },
+  {
+    _id: ObjectId('67ab87dd82fc8b274ab83b05'),
+    tconst: 'tt6723592',
+    title: 'Tenet',
+    originalTitle: 'Tenet',
+    isAdult: 0,
+    year: 2020,
+    runtimeMinutes: 150,
+    genres: [ 'Action', 'Sci-Fi', 'Thriller' ],
+    rating: { numVotes: 621374, averageRating: 7.3 }
+  },
+  {
+    _id: ObjectId('67ab87d082fc8b274ab567ae'),
+    tconst: 'tt0278504',
+    title: 'Insomnia',
+    originalTitle: 'Insomnia',
+    isAdult: 0,
+    year: 2002,
+    runtimeMinutes: 118,
+    genres: [ 'Drama', 'Mystery', 'Thriller' ],
+    rating: { numVotes: 327137, averageRating: 7.2 }
+  },
+  {
+    _id: ObjectId('67ab87d282fc8b274ab62b48'),
+    tconst: 'tt33764258',
+    title: 'The Odyssey',
+    originalTitle: 'The Odyssey',
+    isAdult: 0,
+    year: 2026,
+    runtimeMinutes: null,
+    genres: [ 'Action', 'Adventure', 'Fantasy' ],
+    rating: { numVotes: null, averageRating: null }
+  },
+  {
+    _id: ObjectId('67ab87ec82fc8b274aba9960'),
+    tconst: 'tt28642224',
+    title: 'Larry Mahoney',
+    originalTitle: 'Larry Mahoney',
+    isAdult: 0,
+    year: 1996,
+    runtimeMinutes: null,
+    genres: null,
+    rating: { numVotes: null, averageRating: null }
+  }
+]
+imdb> 
+imdb> 
